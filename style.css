@@ -1,10 +1,11 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Fredoka, sans-serif;
   background-color: #f4f6f8;
   margin: 0;
 }
 
 header {
+  font-family: Fredoka, sans-serif;
   background-color: #4f46e5;
   color: white;
   text-align: center;
@@ -19,6 +20,7 @@ section {
 }
 
 h2 {
+  font-family: Fredoka, sans-serif;
   color: #4f46e5;
 }
 

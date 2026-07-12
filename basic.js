@@ -106,5 +106,5 @@ function setup() {
     if(i % 4 == 0){
       console.log(i);
     }
-    }
+  
 }

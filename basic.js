@@ -34,7 +34,8 @@ function setup() {
     if(i % 4 == 0){
       console.log(i);
     }
-    }
+  }
+
     // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
 

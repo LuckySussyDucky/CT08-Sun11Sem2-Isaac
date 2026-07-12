@@ -25,12 +25,14 @@ function setup() {
   console.log("The area is " + area);
   text("The area is " + area, 20, 30);
 
-
+// --- Exercise: Multiple of 3 below 45 ---
+  // write your codes here
+  
   for(let i = 10; i < 21; i += 1){
     console.log(i);
   }
 
-// --- Exercise: Multiple of 3 below 45 ---
+// --- Exercise: Counting down from 20 to 0 ---
   // write your codes here
 
   for(let i = 20; i > 0; i -= 1){

@@ -78,7 +78,7 @@ function setup() {
 // --- Exercise: Age category classification ---
   // write your codes here
   
-  let age = Math.random(6, );
+  let age = Math.floor(Math.random() * (25 - 1 + 1)) + 1;
   let category = "";
   if (age <= 9){
     category = "lower primary";

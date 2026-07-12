@@ -34,7 +34,7 @@ function setup() {
     console.log(i);
   }
 
-// --- Exercise: First 10 even numbers ---
+// --- Exercise: First 15 even numbers ---
   // write your codes here
 
   for(let i = 0; i < 46; i++){

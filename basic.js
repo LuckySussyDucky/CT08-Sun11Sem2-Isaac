@@ -25,7 +25,17 @@ function setup() {
   console.log("The area is " + area);
   text("The area is " + area, 20, 30);
 
-  // --- Exercise: Sum of first 10 even numbers ---
+
+  for(let i = 0; i < 21; i += 2){
+    console.log(i);
+  }
+
+  for(let i = 0; i < 47; i++){
+    if(i % 4 == 0){
+      console.log(i);
+    }
+    }
+    // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
 
   let evenSum = 0;
@@ -98,13 +108,4 @@ function setup() {
     text(groceries[i], 40 + i * 100, yOdd + 100);
   }
 
-  for(let i = 0; i < 21; i += 2){
-    console.log(i);
-  }
-
-  for(let i = 0; i < 47; i++){
-    if(i % 4 == 0){
-      console.log(i);
-    }
-    }
 }

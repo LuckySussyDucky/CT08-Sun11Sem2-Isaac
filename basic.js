@@ -28,7 +28,6 @@ function setup() {
 
   for(let i = 0; i < 21; i += 2){
     console.log(i);
-    text(i, 20 + (i + 10), 60);
   }
 
   for(let i = 0; i < 46; i++){

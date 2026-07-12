@@ -106,36 +106,5 @@ function setup() {
     if(i % 4 == 0){
       console.log(i);
     }
-
-  age = 10;
-  if (age <= 9){
-    console.log("lower primary");
-    text("lower primary", 20, 360);
-  }else if (age <= 12){
-    console.log("upper primary");
-    text("upper primary", 20, 360); 
-  }else if (age <= 16){
-    console.log("secondary");
-    text("secondary", 20, 360);
-  }else{
-    console.log("a place for very old people");
-    text("a place for very old people", 20, 360);
-  }
-
-  // while(num <= 19){
-  //   console.log(num);
-  //   text(num, 20, 390);
-  //   num = num - 2;
-  // }
-
-  groceries = ["Apple", "Bread", "Milk"];
-  groceries.push("Orange");
-  groceries.push("Butter");
-  groceries.shift();
-  groceries.splice(1, 1, "Kaya");
-  console.log(groceries);
-  for(let i = 0; i < groceries.length; i++){
-    text(groceries[i],20 + i * 75, 420)
-  }
-}
+    }
 }

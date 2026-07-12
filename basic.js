@@ -86,7 +86,7 @@ function setup() {
     category = "upper primary";
   }else if (age <= 16){
     category = "secondary";
-  }else{
+  }else if (age <= 60){
     category = "a place for very old people and having a j*b";
   };
   text("You are " + age + " years old in " +  category, 20, 120);

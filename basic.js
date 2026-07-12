@@ -36,7 +36,7 @@ function setup() {
     }
   }
 
-   // --- Exercise: Age category classification ---
+// --- Exercise: Age category classification ---
   // write your codes here
 
   // let score = 100
@@ -60,7 +60,7 @@ function setup() {
     category = "a place for very old people";
   };
   text("You are " + age + " years old in " +  category, 20, 90);
-  
+
     // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
 

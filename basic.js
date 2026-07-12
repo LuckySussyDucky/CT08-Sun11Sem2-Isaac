@@ -30,7 +30,7 @@ function setup() {
     console.log(i);
   }
 
-   for(let i = 1; i > 1; i += 1){
+   for(let i = 1; i > 20; i += 1){
     console.log(i);
   }
 

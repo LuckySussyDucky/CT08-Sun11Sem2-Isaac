@@ -1,1 +1,1 @@
-new Canvas()
+new Canvas(800, 400)

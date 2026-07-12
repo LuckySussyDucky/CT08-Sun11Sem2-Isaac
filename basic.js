@@ -58,6 +58,22 @@ function setup() {
   };
   console.log("The sum of the first 10 even numbers is " + evenSum);
   text("The sum of the first 10 even numbers is " + evenSum, 20, 60);
+  
+// --- Exercise: Display odd numbers backward using while loop ---
+  // write your codes here
+
+  let oddSum = 0;
+  let num = 19;
+  let xOdd = 20;
+  let yOdd = yEven + 100;
+  while (num >= 1){
+    console.log(num);
+    xOdd += 50;
+    oddSum = oddSum + num;
+    num = num - 2;
+  }
+  console.log(oddSum);
+  text("The sum of the first 10 odd numbers is " + oddSum, 20, 90);
 
 // --- Exercise: Age category classification ---
   // write your codes here

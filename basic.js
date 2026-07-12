@@ -81,7 +81,6 @@ function setup() {
     num = num - 2;
   }
   text("Total sum of odd numbers is " + oddSum, 20, 240);
-    console.log(oddSum);
 
   // --- Exercise: Array operations (groceries) ---
   // write your codes here

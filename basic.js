@@ -30,8 +30,8 @@ function setup() {
     console.log(i);
   }
 
-  for(let i = 0; i < 47; i++){
-    if(i % 4 == 0){
+  for(let i = 0; i < 46; i++){
+    if(i % 3 == 0){
       console.log(i);
     }
   }

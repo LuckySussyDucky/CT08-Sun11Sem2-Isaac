@@ -30,6 +30,10 @@ function setup() {
     console.log(i);
   }
 
+   for(let i = 10; i > 21; i += 1){
+    console.log(i);
+  }
+
   for(let i = 0; i < 46; i++){
     if(i % 3 == 0){
       console.log(i);

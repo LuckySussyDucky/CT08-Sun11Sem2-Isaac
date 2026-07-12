@@ -28,7 +28,7 @@ function setup() {
 
   for(let i = 0; i < 21; i += 2){
     console.log(i);
-    text(i, 20 + (i + 20), 60);
+    text(i, 20 + (i + 10), 60);
   }
 
   for(let i = 0; i < 46; i++){
@@ -47,7 +47,7 @@ function setup() {
     text(i, 20 + i * 30, yEven);
   };
   console.log("The sum of the first 10 even numbers is " + evenSum);
-  text("The sum of the first 10 even numbers is " + evenSum, 20, 200);
+  text("The sum of the first 10 even numbers is " + evenSum, 20, 60);
 
   // --- Exercise: Age category classification ---
   // write your codes here

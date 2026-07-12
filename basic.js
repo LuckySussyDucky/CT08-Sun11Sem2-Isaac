@@ -2,9 +2,9 @@ function setup(){
     new Canvas(800, 400);
     displayMode('centered'); 
 
-    let base = 5
+    let base = 10
     let height = 5
-    console.log()
+    console.log(base)
 }
 
 function draw(){

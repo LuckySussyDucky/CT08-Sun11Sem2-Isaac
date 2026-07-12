@@ -58,7 +58,7 @@ function setup() {
   };
   console.log("The sum of the first 10 even numbers is " + evenSum);
   text("The sum of the first 10 even numbers is " + evenSum, 20, 60);
-  
+
 // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
 
@@ -87,7 +87,7 @@ function setup() {
   }else if (age <= 16){
     category = "secondary";
   }else{
-    category = "a place for very old people";
+    category = "a place for very old people and having a j*b";
   };
   text("You are " + age + " years old in " +  category, 20, 120);
 

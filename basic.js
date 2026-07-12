@@ -87,7 +87,6 @@ function setup() {
   let yOdd = yEven + 100;
   while (num >= 1){
     console.log(num);
-    text(num, xOdd, yOdd);
     xOdd += 50;
     oddSum = oddSum + num;
     num = num - 2;

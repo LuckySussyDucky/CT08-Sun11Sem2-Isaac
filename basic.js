@@ -101,10 +101,6 @@ function setup() {
   groceries.push("Orange");
   groceries.push("Butter");
   groceries.shift();
-  groceries.splice(1, 1, "Kaya")
+  groceries.splice(1, 1, "Kaya");
   console.log(groceries);
-  for (let i = 0; i < groceries.length; i++){
-    text(groceries[i], 40 + i * 100, yOdd + 100);
-  }
-
 }

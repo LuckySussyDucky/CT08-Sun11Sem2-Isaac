@@ -78,12 +78,6 @@ function setup() {
 // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
 
-  // let count = 0
-  // while (count < 5){
-  //   console.log(count);
-  //   count = count + 1
-  // }
-
   let oddSum = 0;
   let num = 19;
   let xOdd = 20;

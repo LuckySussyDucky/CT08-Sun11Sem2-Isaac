@@ -95,7 +95,7 @@ function setup() {
     num = num - 2;
   }
   console.log(oddSum);
-  text("Total sum of odd numbers is " + oddSum, 20, 120);
+  text("The sum of odd numbers is " + oddSum, 20, 120);
 
 // --- Exercise: Array operations (groceries) ---
   // write your codes here

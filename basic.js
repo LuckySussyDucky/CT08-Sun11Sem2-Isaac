@@ -35,7 +35,8 @@ function setup() {
   }
 
 // --- Exercise: Sum of first 10 even numbers ---
-  // write your codes here\
+  // write your codes here
+  
   for(let i = 0; i < 46; i++){
     if(i % 3 == 0){
       console.log(i);

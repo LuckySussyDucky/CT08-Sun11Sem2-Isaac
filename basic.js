@@ -4,7 +4,7 @@ function setup(){
 
     let base = 10
     let height = 5
-    console.log(base)
+    console.log(base * height)
 }
 
 function draw(){

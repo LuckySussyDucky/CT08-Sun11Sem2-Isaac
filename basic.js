@@ -40,12 +40,6 @@ function setup() {
     }
   }
 
-  total = 0
-  for(let i = 0; i > 20; i += 2){
-    total += i
-  }
-  console.log(total);
-
 // --- Exercise: Age category classification ---
   // write your codes here
 

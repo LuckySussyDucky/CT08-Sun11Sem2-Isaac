@@ -89,10 +89,11 @@ function setup() {
   }else if (age <= 60){
     category = "a place for very old people and having a j*b";
   }else if (age <= 100){
-    category = "a elderly home"
+    category = "a elderly home";
   }else if (age <= 500){;
-    category = "a place questioning how the helly you are still alive"
+    category = "a place questioning how the helly you are still alive";
   }else;
+    category
   text("You are " + age + " years old in " +  category, 20, 120);
 
 // --- Exercise: Array operations (groceries) ---

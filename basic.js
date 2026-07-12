@@ -91,7 +91,7 @@ function setup() {
   }else if (age <= 100){
     category = "a elderly home"
   }else;
-    category = "a place questioning how the helly u are alive"
+    category = "a place questioning how the helly you are still alive"
   text("You are " + age + " years old in " +  category, 20, 120);
 
 // --- Exercise: Array operations (groceries) ---

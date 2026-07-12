@@ -52,9 +52,9 @@ function setup() {
   let age = Math.floor(Math.random() * (25 - 1 + 1)) + 1;
   let category = "";
   if (age <= 9){
-    category = "lower primary";
+    category = "Lower primary";
   }else if (age <= 12){
-    category = "upper primary";
+    category = "Upper primary";
   }else if (age <= 16){
     category = "secondary";
   }else{

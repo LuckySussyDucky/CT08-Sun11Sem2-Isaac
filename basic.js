@@ -28,6 +28,7 @@ function setup() {
 
   for(let i = 0; i < 21; i += 2){
     console.log(i);
+    text("The area is " + area, 20, 30);
   }
 
   for(let i = 0; i < 46; i++){

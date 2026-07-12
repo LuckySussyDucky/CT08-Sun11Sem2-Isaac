@@ -61,7 +61,7 @@ function setup() {
   };
   text("You are " + age + " years old in " +  category, 20, 90);
 
-    // --- Exercise: Sum of first 10 even numbers ---
+// --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
 
   let evenSum = 0;
@@ -72,7 +72,7 @@ function setup() {
   console.log("The sum of the first 10 even numbers is " + evenSum);
   text("The sum of the first 10 even numbers is " + evenSum, 20, 60);
 
-  // --- Exercise: Display odd numbers backward using while loop ---
+// --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
 
   // let count = 0
@@ -95,7 +95,7 @@ function setup() {
   console.log(oddSum);
   text("Total sum of odd numbers is " + oddSum, 20, 120);
 
-  // --- Exercise: Array operations (groceries) ---
+// --- Exercise: Array operations (groceries) ---
   // write your codes here
 
   let groceries = ["Apple", "Bread", "Milk"];

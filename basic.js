@@ -1,1 +1,3 @@
-new Canvas(800, 400)
+fucntion setup(){
+    new Canvas(800, 400);
+}

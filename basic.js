@@ -57,7 +57,7 @@ function setup() {
     category = "secondary";
   }else{
     category = "a place for very old people";
-  }
+  };
   text("You are " + age + " years old in " +  category, 20, 120);
 
   // --- Exercise: Display odd numbers backward using while loop ---
@@ -81,7 +81,7 @@ function setup() {
     num = num - 2;
   }
   text("Total sum of odd numbers is " + oddSum, 20, 240);
-console.log(oddSum);
+    console.log(oddSum);
 
   // --- Exercise: Array operations (groceries) ---
   // write your codes here

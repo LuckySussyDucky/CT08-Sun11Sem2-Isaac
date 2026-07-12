@@ -30,9 +30,9 @@ function setup() {
     console.log(i);
   }
 
-  // --- Exercise: Multiple of 3 below 45 ---
+// --- Exercise: Multiple of 3 below 45 ---
   // write your codes here
-  
+
   for(let i = 20; i > 0; i -= 1){
     console.log(i);
   }

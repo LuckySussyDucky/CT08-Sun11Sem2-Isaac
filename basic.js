@@ -25,9 +25,9 @@ function setup() {
   console.log("The area is " + area);
   text("The area is " + area, 20, 30);
 
-// --- Exercise: Multiple of 3 below 45 ---
+// --- Exercise: Counting up from 10 to 20 ---
   // write your codes here
-  
+
   for(let i = 10; i < 21; i += 1){
     console.log(i);
   }

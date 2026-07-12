@@ -40,6 +40,17 @@ function setup() {
     }
   }
 
+// --- Exercise: Sum of first 10 even numbers ---
+  // write your codes here
+
+  let evenSum = 0;
+  let yEven = 90;
+  for (let i = 2; i <= 20; i+=2){
+    evenSum = evenSum + i;
+  };
+  console.log("The sum of the first 10 even numbers is " + evenSum);
+  text("The sum of the first 10 even numbers is " + evenSum, 20, 60);
+
 // --- Exercise: Age category classification ---
   // write your codes here
 

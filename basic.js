@@ -102,10 +102,6 @@ function setup() {
     console.log(i);
   }
 
-  area = height * base * 0.5;
-  console.log(area);
-  text("Area is " + area, 20, 330);
-
   for(let i = 0; i < 47; i++){
     if(i % 4 == 0){
       console.log(i);

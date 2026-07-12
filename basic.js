@@ -56,7 +56,7 @@ function setup() {
   }else if (age <= 12){
     category = "Upper primary";
   }else if (age <= 16){
-    category = "secondary";
+    category = "Secondary";
   }else{
     category = "a place for very old people";
   };

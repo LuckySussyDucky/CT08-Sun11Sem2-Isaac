@@ -55,7 +55,7 @@ function setup() {
   ground.color = "black";
   ground.stroke = "rgba(0, 0, 0, 0)";
 
-  new 
+  new Tiles(tileMap1)
 }
 
 function draw() {

@@ -5,7 +5,8 @@ let cube;
 // game variables
 let background;
 let tileMap1;
-let
+
+let spike;
 
 
 // world building groups

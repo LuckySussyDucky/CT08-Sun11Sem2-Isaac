@@ -79,6 +79,8 @@ function setup() {
   finishline.collider = "static";
   finishline.visible = false;
 
+  particles = new Group();
+
   new Tiles(tileMap1, 0, 0, 50, 50);
 }
 

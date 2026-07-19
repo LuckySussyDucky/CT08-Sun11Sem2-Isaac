@@ -1,9 +1,9 @@
 //player box
 let box;
 let cube;
-let background;
 
 // game variables
+
 
 
 // world building groups

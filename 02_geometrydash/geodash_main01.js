@@ -19,7 +19,8 @@ let bg;
 
 
 function preload() {
-  cube = loadImage()
+  cube = loadImage("assets/cube.png")
+  
 }
 
 function setup() {

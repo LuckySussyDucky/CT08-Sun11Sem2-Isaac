@@ -66,7 +66,8 @@ function setup() {
   sharp = new Group();
   sharp.tile = "s";
 
-  sharp.w = 
+  sharp.w = 25;
+  sharp.h = 25;
   sharp.collider = "static";
 
   finishline = new Group();

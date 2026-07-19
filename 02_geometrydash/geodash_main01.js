@@ -67,9 +67,11 @@ function setup() {
 
   sharp = new Group();
   sharp.tile = "s";
+  sharp.collider = "static";
 
   finishline = new Group();
   finishline.tile = "f";
+  orbs.collider = "static";
 }
 
 function draw() {

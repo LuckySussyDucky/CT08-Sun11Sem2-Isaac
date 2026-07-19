@@ -66,6 +66,7 @@ function setup() {
   orbs.strokeWeight = 0;
 
   sharp = new Group();
+  sharp.
 
   finishline = new Group();
 }

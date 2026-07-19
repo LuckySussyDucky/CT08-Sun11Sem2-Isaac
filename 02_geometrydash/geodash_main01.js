@@ -66,9 +66,10 @@ function setup() {
   orbs.strokeWeight = 0;
 
   sharp = new Group();
-  sharp.
+  sharp.tile = "s"
 
   finishline = new Group();
+  finishline.tile = "f"
 }
 
 function draw() {

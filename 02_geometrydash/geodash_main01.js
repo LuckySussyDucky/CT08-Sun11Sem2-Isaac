@@ -36,6 +36,7 @@ function setup() {
   startCoordinates = [50, height - box.height / 2];
   box.x = startCoordinate[0];
   box.y = startCorrdinate[1];
+
 }
 
 function draw() {

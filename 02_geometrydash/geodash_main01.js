@@ -74,7 +74,8 @@ function setup() {
   finishline = new Group();
   finishline.tile = "f";
 
-  finishline
+  finishline.w = 50;
+  finishline.h = 1200
   finishline.collider = "static";
 
   new Tiles(tileMap1, 0, 0, 50, 50);

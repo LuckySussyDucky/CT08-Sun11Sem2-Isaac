@@ -61,7 +61,9 @@ function setup() {
   orbs.tile = "o";
 
   orbs.d = 24;
-  orbs.collider = "static"
+  orbs.collider = "static";
+  orbs.color = "white";
+  orbs
 }
 
 function draw() {

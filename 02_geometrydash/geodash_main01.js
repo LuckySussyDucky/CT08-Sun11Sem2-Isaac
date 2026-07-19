@@ -1,5 +1,6 @@
 //player box
 let box;
+let cube;
 
 // game variables
 

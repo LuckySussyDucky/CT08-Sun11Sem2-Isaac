@@ -29,7 +29,8 @@ function setup() {
 
   box = new Sprite(50, height, 50, 50);
   box.img = cube;
-  box.friction
+  box.friction = 0;
+  box.
 }
 
 function draw() {

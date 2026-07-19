@@ -65,7 +65,7 @@ function setup() {
   orbs.color = "white";
   orbs.strokeWeight = 0;
 
-  
+   sharp = new Group();
 }
 
 function draw() {

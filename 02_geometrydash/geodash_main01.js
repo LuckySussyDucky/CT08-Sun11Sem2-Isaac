@@ -32,6 +32,8 @@ function setup() {
   box.friction = 0;
   box.bounciness = 0;
   box.collider = "none"
+
+  startCoordinates
 }
 
 function draw() {

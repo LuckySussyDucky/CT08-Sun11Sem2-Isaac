@@ -27,7 +27,7 @@ function preload() {
   cube = loadImage("assets/cube.png")
   background = loadImage("assets/geobg.png")
 
-  
+  spike = loadImage("assets/")
 }
 
 function setup() {

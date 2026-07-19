@@ -29,7 +29,7 @@ function preload() {
 
   spike = loadImage("assets/spike.png")
 
-  tileMap1 = 
+  tileMap1 = loadImage("assets")
 }
 
 function setup() {

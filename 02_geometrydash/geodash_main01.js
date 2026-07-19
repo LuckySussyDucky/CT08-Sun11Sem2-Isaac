@@ -33,7 +33,7 @@ function setup() {
   box.bounciness = 0;
   box.collider = "none"
 
-  startCoordinates
+  startCoordinates = 50, height
 }
 
 function draw() {

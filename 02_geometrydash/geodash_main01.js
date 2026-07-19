@@ -7,13 +7,12 @@ let background;
 let tileMap1;
 
 let spike;
+
+// world building groups
 let ground;
 let orb;
 let sharp;
 let finishline;
-
-// world building groups
-
 
 // image sprites
 

@@ -64,6 +64,8 @@ function setup() {
   orbs.collider = "static";
   orbs.color = "white";
   orbs.strokeWeight = 0;
+
+  
 }
 
 function draw() {

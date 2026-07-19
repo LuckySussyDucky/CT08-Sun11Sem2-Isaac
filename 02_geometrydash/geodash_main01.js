@@ -71,7 +71,7 @@ function setup() {
 
   finishline = new Group();
   finishline.tile = "f";
-  orbs.collider = "static";
+  finishline.collider = "static";
 }
 
 function draw() {

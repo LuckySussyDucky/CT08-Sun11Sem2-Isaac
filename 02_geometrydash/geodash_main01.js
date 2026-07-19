@@ -53,7 +53,7 @@ function setup() {
   ground.h = 50;
   ground.collider = "static";
   ground.color = "bloack";
-  
+  ground.stroke = "rgba("
 }
 
 function draw() {

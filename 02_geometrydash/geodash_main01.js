@@ -56,6 +56,8 @@ function setup() {
   ground.stroke = "rgba(0, 0, 0, 0)";
 
   new Tiles(tileMap1, 0, 0, 50, 50);
+
+  orbs = new Group()
 }
 
 function draw() {

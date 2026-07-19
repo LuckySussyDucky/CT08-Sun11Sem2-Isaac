@@ -67,7 +67,7 @@ function setup() {
 
   sharp = new Group();
 
-
+  f = new Group();
 }
 
 function draw() {

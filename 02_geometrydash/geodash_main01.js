@@ -9,7 +9,8 @@ let tileMap1;
 let spike;
 let ground;
 let orb;
-let finishline
+let sharp;
+let finishline;
 
 // world building groups
 

@@ -66,6 +66,7 @@ function setup() {
   sharp = new Group();
   sharp.tile = "s";
 
+  
   sharp.collider = "static";
 
   finishline = new Group();

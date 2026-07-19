@@ -22,10 +22,7 @@ function preload() {
 
 function setup() {
   new Canvas(700, 600);
-  background(250);
-  displayMode('centered');
-  textSize(16);
-  fill(0);
+  world
 }
 
 function draw() {

@@ -34,7 +34,7 @@ function setup() {
   box.collider = "none"
 
   startCoordinates = [50, height - box.height / 2];
-
+  box.x = 
 }
 
 function draw() {

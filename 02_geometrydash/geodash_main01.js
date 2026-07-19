@@ -19,7 +19,7 @@ let bg;
 
 
 function preload() {
-  
+  cube = loadImage()
 }
 
 function setup() {

@@ -24,12 +24,12 @@ let finishline;
 
 
 function preload() {
-  cube = loadImage("assets/cube.png")
-  background = loadImage("assets/geobg.png")
+  cube = loadImage("assets/cube.png");
+  background = loadImage("assets/geobg.png");
 
-  spike = loadImage("assets/spike.png")
+  spike = loadImage("assets/spike.png");
 
-  tileMap1 = loadImage("stages/tiles1.txt")
+  tileMap1 = loadImage("stages/tiles1.txt");
 }
 
 function setup() {

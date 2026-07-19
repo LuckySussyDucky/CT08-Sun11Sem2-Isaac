@@ -68,12 +68,13 @@ function setup() {
 
   sharp.w = 25;
   sharp.h = 25;
-  sharp.img = spike
+  sharp.img = spike;
   sharp.collider = "static";
 
   finishline = new Group();
   finishline.tile = "f";
 
+  
   finishline.collider = "static";
 
   new Tiles(tileMap1, 0, 0, 50, 50);

@@ -32,61 +32,61 @@ function preload() {
   tileMap1 = loadImage("stages/tiles1.txt");
 }
 
-// function setup() {
-//   new Canvas(700, 600);
-//   world.gravity.y = 32;
+function setup() {
+  new Canvas(700, 600);
+  world.gravity.y = 32;
 
-//   box = new Sprite(50, height, 50, 50);
-//   box.img = cube;
-//   box.friction = 0;
-//   box.bounciness = 0;
-//   box.collider = "none";
+  box = new Sprite(50, height, 50, 50);
+  box.img = cube;
+  box.friction = 0;
+  box.bounciness = 0;
+  box.collider = "none";
 
-//   startCoordinates = [50, height - box.height / 2];
-//   box.x = startCoordinate[0];
-//   box.y = startCorrdinate[1];
+  startCoordinates = [50, height - box.height / 2];
+  box.x = startCoordinate[0];
+  box.y = startCorrdinate[1];
 
-//   ground = new Group();
-//   ground.tile = "g";
+  ground = new Group();
+  ground.tile = "g";
 
-//   ground.w = 50;
-//   ground.h = 50;
-//   ground.collider = "static";
-//   ground.color = "black";
-//   ground.stroke = "rgba(0, 0, 0, 0)";
+  ground.w = 50;
+  ground.h = 50;
+  ground.collider = "static";
+  ground.color = "black";
+  ground.stroke = "rgba(0, 0, 0, 0)";
 
-//   orbs = new Group();
-//   orbs.tile = "o";
+  orbs = new Group();
+  orbs.tile = "o";
 
-//   orbs.d = 24;
-//   orbs.collider = "static";
-//   orbs.color = "white";
-//   orbs.strokeWeight = 0;
+  orbs.d = 24;
+  orbs.collider = "static";
+  orbs.color = "white";
+  orbs.strokeWeight = 0;
 
-//   sharp = new Group();
-//   sharp.tile = "s";
+  sharp = new Group();
+  sharp.tile = "s";
 
-//   sharp.w = 25;
-//   sharp.h = 25;
-//   sharp.img = spike;
-//   sharp.collider = "static";
+  sharp.w = 25;
+  sharp.h = 25;
+  sharp.img = spike;
+  sharp.collider = "static";
 
-//   finishline = new Group();
-//   finishline.tile = "f";
+  finishline = new Group();
+  finishline.tile = "f";
 
-//   finishline.w = 50;
-//   finishline.h = 1200;
-//   finishline.collider = "static";
-//   finishline.visible = false;
+  finishline.w = 50;
+  finishline.h = 1200;
+  finishline.collider = "static";
+  finishline.visible = false;
 
-//   particles = new Group();
+  particles = new Group();
 
-//   new Tiles(tileMap1, 0, 0, 50, 50);
-// }
+  new Tiles(tileMap1, 0, 0, 50, 50);
+}
 
-// function draw() {
-//   clear();
-//   image(background, 0, 0, 800, 600);
-// }
+function draw() {
+  clear();
+  image(background, 0, 0, 800, 600);
+}
 
 

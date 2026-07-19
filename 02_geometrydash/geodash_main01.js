@@ -77,7 +77,7 @@ function setup() {
   finishline.w = 50;
   finishline.h = 1200;
   finishline.collider = "static";
-  
+  finishline.visible = false
 
   new Tiles(tileMap1, 0, 0, 50, 50);
 }

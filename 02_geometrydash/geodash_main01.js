@@ -47,7 +47,10 @@ function setup() {
   box.y = startCorrdinate[1];
 
   ground = new Group()
-  ground.til
+  ground.tile = "g"
+
+  ground.w = 50;
+  ground.h = 50;
 }
 
 function draw() {

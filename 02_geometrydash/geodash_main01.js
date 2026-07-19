@@ -85,9 +85,9 @@ function setup() {
   new Tiles(tileMap1, 0, 0, 50, 50);
 }
 
-// function draw() {
-//   clear();
-//   image(background, 0, 0, 800, 600);
-// }
+function draw() {
+  clear();
+  image(background, 0, 0, 800, 600);
+}
 
 

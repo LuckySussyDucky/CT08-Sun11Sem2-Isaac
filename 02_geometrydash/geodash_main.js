@@ -26,7 +26,6 @@ function setup() {
   displayMode('centered');
   textSize(16);
   fill(0);
-  
 }
 
 function draw() {

@@ -41,7 +41,7 @@ function setup() {
 
 function draw() {
   clear()
-  image()
+  image(background, 0, 0, 800, 600)
 }
 
 

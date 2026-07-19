@@ -60,8 +60,8 @@ function setup() {
   orbs = new Group();
   orbs.tile = "o";
 
-  orbs,d = 24;
-  orbs.col
+  orbs.d = 24;
+  orbs.collider
 }
 
 function draw() {

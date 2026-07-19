@@ -26,6 +26,8 @@ let finishline;
 function preload() {
   cube = loadImage("assets/cube.png")
   background = loadImage("assets/geobg.png")
+
+  
 }
 
 function setup() {

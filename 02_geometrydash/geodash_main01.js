@@ -7,7 +7,9 @@ let background;
 let tileMap1;
 
 let spike;
-let ground
+let ground;
+let orb;
+let finishline
 
 // world building groups
 

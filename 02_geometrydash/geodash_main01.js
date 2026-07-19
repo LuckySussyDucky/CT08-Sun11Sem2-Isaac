@@ -3,7 +3,9 @@ let box;
 let cube;
 
 // game variables
-
+let background;
+let tileMap1;
+let
 
 
 // world building groups

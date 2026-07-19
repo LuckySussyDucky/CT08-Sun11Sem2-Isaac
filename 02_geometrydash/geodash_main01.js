@@ -46,11 +46,13 @@ function setup() {
   box.x = startCoordinate[0];
   box.y = startCorrdinate[1];
 
-  ground = new Group()
-  ground.tile = "g"
+  ground = new Group();
+  ground.tile = "g";
 
   ground.w = 50;
   ground.h = 50;
+  ground.collider = "static";
+  
 }
 
 function draw() {

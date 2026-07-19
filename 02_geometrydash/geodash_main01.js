@@ -58,7 +58,10 @@ function setup() {
   new Tiles(tileMap1, 0, 0, 50, 50);
 
   orbs = new Group();
-  orbs
+  orbs.tile = "o";
+
+  orbs,d = 24;
+  orbs.col
 }
 
 function draw() {

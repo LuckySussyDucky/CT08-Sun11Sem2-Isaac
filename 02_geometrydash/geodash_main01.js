@@ -67,7 +67,7 @@ function setup() {
 
   sharp = new Group();
 
-  f = new Group();
+  finishline = new Group();
 }
 
 function draw() {

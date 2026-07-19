@@ -5,6 +5,7 @@ let cube;
 // game variables
 let background;
 let tileMap1;
+let startCoordinates;
 
 let spike;
 
@@ -29,7 +30,7 @@ function preload() {
 
   spike = loadImage("assets/spike.png");
 
-  tileMap1 = loadImage("stages/tiles1.txt");
+  tileMap1 = loadStrings("stages/tiles1.txt");
 }
 
 function setup() {
@@ -43,8 +44,8 @@ function setup() {
   box.collider = "none";
 
   startCoordinates = [50, height - box.height / 2];
-  box.x = startCoordinate[0];
-  box.y = startCorrdinate[1];
+  box.x = startCoordinates[0];
+  box.y = startCoordinates[1];
 
   ground = new Group();
   ground.tile = "g";

@@ -31,10 +31,11 @@ function setup() {
   box.img = cube;
   box.friction = 0;
   box.bounciness = 0;
-  box.collider = "none"
+  box.collider = "none";
 
   startCoordinates = [50, height - box.height / 2];
-  box.x = startCoordinate[0]
+  box.x = startCoordinate[0];
+  box.y = startCorrdinate[1];
 }
 
 function draw() {

@@ -7,7 +7,7 @@ let background;
 let tileMap1;
 
 let spike;
-
+let ground
 
 // world building groups
 

@@ -46,7 +46,8 @@ function setup() {
   box.x = startCoordinate[0];
   box.y = startCorrdinate[1];
 
-  ground = new Gro
+  ground = new Group()
+  ground.til
 }
 
 function draw() {

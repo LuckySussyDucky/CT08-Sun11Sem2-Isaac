@@ -38,7 +38,7 @@ function setup() {
   world.gravity.y = 32;
   displayMode('centered');
 
-  box = new Sprite(50, height + 25, 50, 50);
+  box = new Sprite(50, height, 50, 50);
   box.img = cube;
   box.friction = 0;
   box.bounciness = 0;

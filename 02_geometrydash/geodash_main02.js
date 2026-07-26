@@ -126,9 +126,9 @@ function draw() {
     clearLabel.y = height / 2;
     clearLabel.width = 192;
     clearLabel.height = 42;
-    clearLabel.img = gameoverImg;
+    clearLabel.img = clear;
     clearLabel.layer = 100;
-    gameoverLabel.x = camera.x;
+    clearLabel.x = camera.x;
   }
 }
 

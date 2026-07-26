@@ -123,17 +123,6 @@ function draw() {
     if (box.collides(ground) && jumpChance < MAX_JUMPS){
       jumpChance = MAX_JUMPS;
     }
-
-    if (box.collides(finishline)){
-      clearLabel = new Sprite(); // x, y, width, height
-      clearLabel.x = width / 2;
-      clearLabel.y = height / 2;
-      clearLabel.width = 192;
-      clearLabel.height = 42;
-      clearLabel.img = clear;
-      clearLabel.layer = 100;
-      clearLabel.x = camera.x;
-    }
   }
 }
 

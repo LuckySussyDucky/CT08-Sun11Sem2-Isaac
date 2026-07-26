@@ -25,7 +25,7 @@ let clear;
 
 
 // sound assets
-let 
+let stereo
 
 
 function preload() {

@@ -81,7 +81,7 @@ function setup() {
   finishline.w = 50;
   finishline.h = 1200;
   finishline.collider = "static";
-  finishline.visible = true;
+  finishline.visible = false;
 
   particles = new Group();
 

@@ -106,6 +106,11 @@ function draw() {
       box.x += 1
       camera.x = box.x;
       floor.x = camera.x;
+
+      if(kb.presses("space") || mouse.presses("left")){
+        box.vel.y = -5;
+        box.sleeping = false;
+      }
     }
 }
 

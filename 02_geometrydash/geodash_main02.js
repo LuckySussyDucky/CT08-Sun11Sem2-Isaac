@@ -108,7 +108,7 @@ function draw() {
     floor.x = camera.x;
 
     if(kb.presses("space") || mouse.presses("left")){
-      box.vel.y = -25;
+      box.vel.y = -8;
       box.sleeping = false;
     }
   }

@@ -104,7 +104,7 @@ function draw() {
   box.collider = "dynamic";
   box.vel.x = 8;
 
-stereoMadness
+ stereoMadness.Play()
 
   if (box.x >= width / 2){
     camera.x = box. x;

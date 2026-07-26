@@ -26,7 +26,7 @@ let clear;
 
 // sound assets
 let stereoMadness
-let
+let deathSound
 
 
 

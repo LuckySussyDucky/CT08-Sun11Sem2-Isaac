@@ -102,6 +102,8 @@ function draw() {
 
     if(startGame){
       box.x += 1
+      camera.x = box.x;
+      floor.x = camera.x;
     }
 }
 

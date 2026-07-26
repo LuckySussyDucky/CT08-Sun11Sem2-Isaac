@@ -93,11 +93,11 @@ function draw() {
   if(kb.presses("space") || mouse.presses("left")){
       startGame = true;
       startScreenLabel.visible = false;
-      bird.visible = true;
+      box.visible = true;
     }
 
     if(startGame){
-
+      
     }
 }
 

@@ -97,7 +97,7 @@ function draw() {
     }
 
     if(startGame){
-      
+      box.x += 3
     }
 }
 

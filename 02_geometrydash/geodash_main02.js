@@ -141,6 +141,7 @@ function draw() {
     if (box.colliding(orb)){
       orb.visible = false;
       orb.collider = "none";
+      
     }
   }
 

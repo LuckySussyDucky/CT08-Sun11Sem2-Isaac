@@ -34,6 +34,8 @@ function preload() {
   clear = loadImage("assets/clear.png");
 
   tileMap1 = loadStrings("stages/tiles1.txt");
+
+  let
 }
 
 function setup() {

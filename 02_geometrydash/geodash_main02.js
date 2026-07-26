@@ -168,4 +168,8 @@ function resetGame(){
   jumpChance = MAX_JUMPS;
 
   camera.x = width / 2
+
+  for (let orb of orbs){
+
+  }
 }

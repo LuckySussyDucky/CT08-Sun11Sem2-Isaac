@@ -138,7 +138,7 @@ function draw() {
   }
 
   for (let orb of orbs){
-    if (box.colliding(orb) && kb.){
+    if (box.colliding(orb) && kb.presses("space")){
       orb.visible = false;
       orb.collider = "none";
       box.vel.y = -10;

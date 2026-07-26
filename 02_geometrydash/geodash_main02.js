@@ -104,6 +104,8 @@ function draw() {
   box.collider = "dynamic";
   box.vel.x = 8;
 
+stereoMadness
+
   if (box.x >= width / 2){
     camera.x = box. x;
   } else{

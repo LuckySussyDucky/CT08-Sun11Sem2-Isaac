@@ -9,6 +9,8 @@ let startCoordinates;
 
 let spike;
 
+let startGame;
+
 // world building groups
 let ground;
 let orb;

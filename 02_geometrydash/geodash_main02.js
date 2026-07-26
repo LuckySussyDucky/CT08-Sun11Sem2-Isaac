@@ -130,4 +130,6 @@ function draw() {
   }
 }
 
+function resetGame(){
 
+}

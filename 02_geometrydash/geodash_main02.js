@@ -121,7 +121,9 @@ function draw() {
   }
 
   for (let tile of ground){
-    
+    if (box.colliding(tile)){
+      let 
+    }
   }
 
   if (box.collides(finishline)){

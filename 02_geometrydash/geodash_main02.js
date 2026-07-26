@@ -137,16 +137,16 @@ function draw() {
     }
   }
 
-  // for (let orb of orbs){
-  //   if (box.colliding(orb) && kb.presses("space")){
-  //     orb.visible = false;
-  //     orb.collider = "none";
-  //     box.vel.y = -10;
-  //     jumpChance = MAX_JUMPS;
-  //   }else{
-  //     orb.visible = true;
-  //   }
-  // }
+  for (let orb of orbs){
+    if (box.colliding(orb) && kb.presses("space")){
+      orb.visible = false;
+      orb.collider = "none";
+      box.vel.y = -10;
+      jumpChance = MAX_JUMPS;
+    }else{
+      orb.visible = true;
+    }
+  }
 
   if (box.collides(finishline)){
     clearLabel = new Sprite(); // x, y, width, height

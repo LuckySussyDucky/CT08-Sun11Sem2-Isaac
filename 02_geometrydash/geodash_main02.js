@@ -102,8 +102,8 @@ function draw() {
       box.visible = true;
   }
 
-  if(startGame){
-    if ()
+  if (startGame){
+    if (box.x >= width)
 
     if(kb.presses("space") || mouse.presses("left")){
       box.vel.y = -8;

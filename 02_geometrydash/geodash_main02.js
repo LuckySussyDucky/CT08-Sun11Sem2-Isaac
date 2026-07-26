@@ -143,6 +143,8 @@ function draw() {
       orb.collider = "none";
       box.vel.y = -10;
       jumpChance = MAX_JUMPS;
+    }else{
+      
     }
   }
 

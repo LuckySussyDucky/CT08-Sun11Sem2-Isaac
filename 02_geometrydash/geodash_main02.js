@@ -3,11 +3,8 @@ let box;
 let cube;
 
 // game variables
-let background;
-
-
-let spike;
-
+let tileMap1;
+let startCoordinates;
 let startGame;
 
 // world building groups

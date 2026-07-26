@@ -40,7 +40,7 @@ function preload() {
 
   stereoMadness = loadSound("assests/stereo-madness.mp3")
   deathSound = loadSound("assests/stereo-madness.mp3")
-  stereoMadness = loadSound("assests/stereo-madness.mp3")
+  startSound = loadSound("assests/stereo-madness.mp3")
 
   
 }

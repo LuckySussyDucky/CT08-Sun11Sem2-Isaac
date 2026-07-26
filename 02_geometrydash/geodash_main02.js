@@ -38,7 +38,7 @@ function preload() {
 
   tileMap1 = loadStrings("stages/tiles1.txt");
 
-  stereoMadness = loadSound("")
+  stereoMadness = loadSound("stereo-madness")
 
   
 }

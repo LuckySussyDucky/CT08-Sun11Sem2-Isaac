@@ -120,7 +120,9 @@ function draw() {
     resetGame();
   }
 
-  if (box.collides(finishline))
+  if (box.collides(finishline)){
+    console.log("WINNN")
+  }
 }
 
 function resetGame(){

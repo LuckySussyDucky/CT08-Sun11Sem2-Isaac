@@ -7,6 +7,9 @@ let tileMap1;
 let startCoordinates;
 let startGame;
 
+const MAX_JUMPS = 1
+let jumpChance = MAX_JUMPS
+
 // world building groups
 let background;
 let spike;
@@ -108,8 +111,8 @@ function draw() {
       camera.x = width / 2;
     }
 
-    if (kb.presses("space") || mouse.presses("left")){
-      box.vel.y = -8;
+    if (kb.presses("space") || mouse.presses("left") && jumpChance > 0){
+      box.vel.y = -10;
       box.sleeping = false;
     }
 

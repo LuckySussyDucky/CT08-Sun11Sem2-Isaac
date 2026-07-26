@@ -113,6 +113,10 @@ function draw() {
       box.vel.y = -8;
       box.sleeping = false;
     }
+
+    if (box.colliding(finishline)){
+      
+    }
   }
 }
 

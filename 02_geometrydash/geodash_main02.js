@@ -25,6 +25,7 @@ let clear;
 
 
 // sound assets
+let 
 
 
 function preload() {
@@ -35,7 +36,7 @@ function preload() {
 
   tileMap1 = loadStrings("stages/tiles1.txt");
 
-  let
+  
 }
 
 function setup() {

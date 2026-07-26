@@ -136,5 +136,7 @@ function resetGame(){
   box.x = startCoordinates[0];
   box.y = startCoordinates[1];
 
-  jumpChance = MAX_JUMPS
+  jumpChance = MAX_JUMPS;
+
+  camera.x = width
 }

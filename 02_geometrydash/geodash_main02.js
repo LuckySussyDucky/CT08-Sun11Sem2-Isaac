@@ -95,6 +95,8 @@ function draw() {
   box.collider = "dynamic";
   box.vel.x = 8;
 
+  startGame = false;
+
   if(kb.presses("space") || mouse.presses("left")){
       startGame = true;
       box.visible = true;

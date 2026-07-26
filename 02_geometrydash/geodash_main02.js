@@ -117,7 +117,7 @@ function draw() {
       jumpChance -= 1;
     }
 
-    if (box.collides(ground)
+    if (box.collides(ground))
 
     if (box.collides(finishline)){
       gameoverLabel = new Sprite(); // x, y, width, height

@@ -122,7 +122,7 @@ function draw() {
 
   for (let tile of ground){
     if (box.colliding(tile)){
-      let 
+      let leftEdge = tile.x - tile.w / 2
     }
   }
 

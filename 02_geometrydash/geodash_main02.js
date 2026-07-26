@@ -113,7 +113,7 @@ function draw() {
 
     if (kb.presses("space") || mouse.presses("left") && jumpChance > 0){
       box.vel.y = -10;
-      box.rotatio
+      box.rotateTo
       box.sleeping = false;
     }
 

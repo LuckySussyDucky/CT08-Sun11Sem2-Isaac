@@ -14,6 +14,7 @@ let ground;
 let orb;
 let sharp;
 let finishline;
+let clear;
 
 // image sprites
 
@@ -29,6 +30,7 @@ function preload() {
   background = loadImage("assets/geobg.png");
 
   spike = loadImage("assets/spike.png"); 
+  
 
   tileMap1 = loadStrings("stages/tiles1.txt");
 }

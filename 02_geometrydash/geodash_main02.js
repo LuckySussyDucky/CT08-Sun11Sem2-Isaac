@@ -97,7 +97,7 @@ function draw() {
 
   startGame = false;
 
-  if(kb.presses("space") || mouse.presses("left")){
+  if (kb.presses("space") || mouse.presses("left")){
       startGame = true;
       box.visible = true;
   }
@@ -105,11 +105,11 @@ function draw() {
   if (startGame){
     if (box.x >= width / 2){
       camera.x = box. x;
-    }else{
+    } else{
       camera.x = width / 2;
     }
 
-    if(kb.presses("space") || mouse.presses("left")){
+    if (kb.presses("space") || mouse.presses("left")){
       box.vel.y = -8;
       box.sleeping = false;
     }

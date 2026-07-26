@@ -7,8 +7,8 @@ let tileMap1;
 let startCoordinates;
 let startGame;
 
-const MAX_JUMPS = 1
-let jumpChance = MAX_JUMPS
+const MAX_JUMPS = 1;
+let jumpChance = MAX_JUMPS;
 
 // world building groups
 let background;

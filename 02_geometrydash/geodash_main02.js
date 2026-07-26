@@ -144,7 +144,9 @@ function draw() {
       box.vel.y = -10;
       jumpChance = MAX_JUMPS;
     }
-    ?
+    // else{
+    //   orb.visible = true;
+    // }
   }
 
   if (box.collides(finishline)){

@@ -113,7 +113,7 @@ function draw() {
   }
 
   if (box.collides(ground) && jumpChance < MAX_JUMPS){
-     jumpChance = MAX_JUMPS;
+    jumpChance = MAX_JUMPS;
   }
 
   if (box.collides(sharp)){
@@ -121,7 +121,7 @@ function draw() {
   }
 
   if (box.collides(finishline)){
-    console.log("WINNN")
+    
   }
 }
 

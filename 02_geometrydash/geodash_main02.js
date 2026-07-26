@@ -119,6 +119,8 @@ function draw() {
   if (box.collides(sharp)){
     resetGame();
   }
+
+  if (box.collides(finishline))
 }
 
 function resetGame(){

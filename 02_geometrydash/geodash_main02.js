@@ -130,7 +130,6 @@ function draw() {
     clearLabel.layer = 100;
     clearLabel.x = camera.x;
     clearLabel.collider = "static"
-    resetGame()
   }
 }
 

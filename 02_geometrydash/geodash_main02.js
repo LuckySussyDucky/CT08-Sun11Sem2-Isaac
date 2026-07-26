@@ -122,7 +122,7 @@ function draw() {
   //   box.vel.y = -10;
   //   box.rotateTo(box.rotation + 90, 15);
   // }
-
+    
   if (box.collides(ground) && jumpChance < MAX_JUMPS){
     jumpChance = MAX_JUMPS;
   }

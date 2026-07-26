@@ -120,6 +120,8 @@ function draw() {
     resetGame();
   }
 
+  
+
   if (box.collides(finishline)){
     clearLabel = new Sprite(); // x, y, width, height
     clearLabel.x = width / 2;

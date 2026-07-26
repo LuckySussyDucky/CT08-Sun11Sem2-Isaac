@@ -89,6 +89,16 @@ function setup() {
 function draw() {
   clear();
   image(background, 0, 0, 800, 600);
+
+  if(kb.presses("space") || mouse.presses("left")){
+      startGame = true;
+      startScreenLabel.visible = false;
+      bird.visible = true;
+    }
+
+    if(startGame){
+
+    }
 }
 
 

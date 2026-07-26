@@ -96,38 +96,29 @@ function draw() {
   box.collider = "dynamic";
   box.vel.x = 8;
 
-  startGame = false;
-
-  if (kb.presses("space") || mouse.presses("left")){
-      startGame = true;
-      box.visible = true;
+  if (box.x >= width / 2){
+    camera.x = box. x;
+  } else{
+    camera.x = width / 2;
   }
 
-  if (startGame){
-    if (box.x >= width / 2){
-      camera.x = box. x;
-    } else{
-      camera.x = width / 2;
-    }
+  // if (kb.presses("space") || mouse.presses("left") && jumpChance > 0){
+  //   box.vel.y = -10;
+  //   box.rotateTo(box.rotation + 359, 15);
+  //   jumpChance -= 1;
+  // }
 
-    // if (kb.presses("space") || mouse.presses("left") && jumpChance > 0){
-    //   box.vel.y = -10;
-    //   box.rotateTo(box.rotation + 359, 15);
-    //   jumpChance -= 1;
-    // }
+  if (kb.presses("space") || mouse.presses("left")){
+    box.vel.y = -10;
+    box.rotateTo(box.rotation + 90, 15);
+  }
 
-    if (kb.presses("space") || mouse.presses("left")){
-      box.vel.y = -10;
-      box.rotateTo(box.rotation + 90, 15);
-    }
+  if (box.collides(ground) && jumpChance < MAX_JUMPS){
+     jumpChance = MAX_JUMPS;
+  }
 
-    if (box.collides(ground) && jumpChance < MAX_JUMPS){
-      jumpChance = MAX_JUMPS;
-    }
-
-    if (box.collides(sharp)){
-      resetGame();
-    }
+  if (box.collides(sharp)){
+    resetGame();
   }
 }
 

@@ -105,7 +105,9 @@ function draw() {
   if (startGame){
     if (box.x >= width / 2){
       camera.x = box. x;
-    }else{}
+    }else{
+      camera.x = width / 2;
+    }
 
     if(kb.presses("space") || mouse.presses("left")){
       box.vel.y = -8;

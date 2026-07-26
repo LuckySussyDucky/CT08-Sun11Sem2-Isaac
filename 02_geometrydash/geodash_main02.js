@@ -44,7 +44,7 @@ function setup() {
   box.bounciness = 0;
   box.collider = "none";
 
-  startCoordinates = [50, height - box.height / 2];
+  startCoordinates = [50, (height - box.height / 2)];
   box.x = startCoordinates[0];
   box.y = startCoordinates[1];
 

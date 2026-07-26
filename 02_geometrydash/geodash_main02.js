@@ -138,5 +138,5 @@ function resetGame(){
 
   jumpChance = MAX_JUMPS;
 
-  camera.x = width
+  camera.x = width / 2
 }

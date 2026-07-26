@@ -38,7 +38,9 @@ function preload() {
 
   tileMap1 = loadStrings("stages/tiles1.txt");
 
-  orb.visible = false;
+  stereoMadness = loadSound("assests/stereo-madness.mp3")
+  deathSound = loadSound("assests/stereo-madness.mp3")
+  stereoMadness = loadSound("assests/stereo-madness.mp3")
 
   
 }

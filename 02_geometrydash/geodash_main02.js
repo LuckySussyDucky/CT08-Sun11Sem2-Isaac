@@ -91,7 +91,6 @@ function setup() {
 }
 
 function draw() {
-  clear();
   image(background, 0, 0, 800, 600);
 
   box.collider = "dynamic";

@@ -4,14 +4,15 @@ let cube;
 
 // game variables
 let background;
-let tileMap1;
-let startCoordinates;
+
 
 let spike;
 
 let startGame;
 
 // world building groups
+let background;
+let spike;
 let ground;
 let orb;
 let sharp;

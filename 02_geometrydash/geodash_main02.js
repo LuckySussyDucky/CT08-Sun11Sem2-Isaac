@@ -138,7 +138,9 @@ function draw() {
   }
 
   for (let orb of orbs){
-    
+    if (box.colliding(orb)){
+      
+    }
   }
 
   if (box.collides(finishline)){

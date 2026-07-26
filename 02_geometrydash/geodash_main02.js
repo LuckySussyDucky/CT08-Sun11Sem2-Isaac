@@ -155,7 +155,7 @@ function draw() {
     clearLabel.img = clear;
     clearLabel.layer = 100;
     clearLabel.x = camera.x;
-    clearLabel.collider = "static"
+    clearLabel.collider = "static";
   }
 }
 
@@ -167,10 +167,10 @@ function resetGame(){
 
   jumpChance = MAX_JUMPS;
 
-  camera.x = width / 2
+  camera.x = width / 2;
 
   for (let orb of orbs){
     orb.visible = true;
-    orb.collider
+    orb.collider = "static";
   }
 }

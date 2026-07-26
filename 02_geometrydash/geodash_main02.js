@@ -92,7 +92,8 @@ function draw() {
   clear();
   image(background, 0, 0, 800, 600);
 
-  box.collider = "dyna"
+  box.collider = "dynamic";
+  box.vel.x = 8;
 
   if(kb.presses("space") || mouse.presses("left")){
       startGame = true;
@@ -100,7 +101,7 @@ function draw() {
     }
 
     if(startGame){
-      box.x += 3
+      box.x += 1
     }
 }
 

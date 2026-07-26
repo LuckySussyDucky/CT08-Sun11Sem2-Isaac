@@ -118,6 +118,7 @@ function draw() {
 
     if (kb.presses("space") || mouse.presses("left")){
       box.vel.y = -10;
+      box.rotateTo(box.rotation + 359, 15);
     }
 
     if (box.collides(ground) && jumpChance < MAX_JUMPS){

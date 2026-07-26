@@ -114,8 +114,8 @@ function draw() {
       box.sleeping = false;
     }
 
-    if (box.colliding(finishline)){
-      
+    if (box.collides(finishline)){
+
     }
   }
 }

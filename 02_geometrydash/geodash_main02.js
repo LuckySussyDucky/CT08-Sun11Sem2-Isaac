@@ -106,16 +106,16 @@ function draw() {
     camera.x = width / 2;
   }
 
-  // if (kb.presses("space") || mouse.presses("left") && jumpChance > 0){
-  //   box.vel.y = -10;
-  //   box.rotateTo(box.rotation + 359, 15);
-  //   jumpChance -= 1;
-  // }
-
-  if (kb.presses("space") || mouse.presses("left")){
+  if (kb.presses("space") || mouse.presses("left") && jumpChance > 0){
     box.vel.y = -10;
-    box.rotateTo(box.rotation + 90, 15);
+    box.rotateTo(box.rotation + 359, 15);
+    jumpChance -= 1;
   }
+
+  // if (kb.presses("space") || mouse.presses("left")){
+  //   box.vel.y = -10;
+  //   box.rotateTo(box.rotation + 90, 15);
+  // }
 
   if (box.collides(ground) && jumpChance < MAX_JUMPS){
     jumpChance = MAX_JUMPS;

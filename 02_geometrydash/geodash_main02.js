@@ -151,7 +151,7 @@ function draw() {
       jumpChance = MAX_JUMPS;
     }
   }
-
+  
   if (box.collides(finishline)){
     clearLabel = new Sprite(); // x, y, width, height
     clearLabel.x = width / 2;

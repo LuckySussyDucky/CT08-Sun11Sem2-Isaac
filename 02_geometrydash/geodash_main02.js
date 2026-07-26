@@ -100,10 +100,10 @@ function draw() {
   if(kb.presses("space") || mouse.presses("left")){
       startGame = true;
       box.visible = true;
-    }
+  }
 
-    if(startGame){
-      box.x += 1
+  if(startGame){
+    box.x += 1
       camera.x = box.x;
       floor.x = camera.x;
 

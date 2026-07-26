@@ -121,7 +121,14 @@ function draw() {
   }
 
   if (box.collides(finishline)){
-    
+    gameoverLabel = new Sprite(); // x, y, width, height
+    gameoverLabel.x = width / 2;
+    gameoverLabel.y = height / 2;
+      gameoverLabel.width = 192;
+      gameoverLabel.height = 42;
+      gameoverLabel.img = gameoverImg;
+      gameoverLabel.layer = 100;
+      gameoverLabel.x = camera.x;
   }
 }
 

@@ -30,7 +30,7 @@ function preload() {
   background = loadImage("assets/geobg.png");
 
   spike = loadImage("assets/spike.png"); 
-  
+  clear = loadImage("assest")
 
   tileMap1 = loadStrings("stages/tiles1.txt");
 }

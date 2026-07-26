@@ -129,7 +129,7 @@ function draw() {
     clearLabel.img = clear;
     clearLabel.layer = 100;
     clearLabel.x = camera.x;
-    
+    resetGame()
   }
 }
 

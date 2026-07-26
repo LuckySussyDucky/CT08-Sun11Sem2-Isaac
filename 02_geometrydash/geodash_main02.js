@@ -27,8 +27,7 @@ let clear;
 // sound assets
 let stereoMadness
 let deathSound
-let 
-
+let startSound
 
 
 function preload() {

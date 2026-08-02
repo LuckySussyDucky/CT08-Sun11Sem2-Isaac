@@ -1,6 +1,5 @@
 //player box
 let box;
-let cube;
 
 // game variables
 let tileMap1;
@@ -19,7 +18,7 @@ let finishline;
 let clear;
 
 // image sprites
-
+let cube;
 
 // menu
 

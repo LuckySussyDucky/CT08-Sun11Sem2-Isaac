@@ -9,16 +9,15 @@ const MAX_JUMPS = 1;
 let jumpChance = MAX_JUMPS;
 
 // world building groups
-let background;
-let spike;
 let ground;
 let orb;
 let sharp;
 let finishline;
-let clear;
 
 // image sprites
 let cube;
+let background;
+let spike;
 
 // menu
 

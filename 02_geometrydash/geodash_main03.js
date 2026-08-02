@@ -130,8 +130,8 @@ function draw() {
 
 
   
-  if (box.x >= width / 2){
-    camera.x = box. x;
+    if (box.x >= width / 2){
+      camera.x = box. x;
   } else{
     camera.x = width / 2;
   }

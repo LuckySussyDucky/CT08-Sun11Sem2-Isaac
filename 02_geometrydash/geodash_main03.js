@@ -210,5 +210,7 @@ function resetGame(){
 }
 
 function GAMEOVER(){
-  
+  if (!gameOver){
+    
+  }
 }

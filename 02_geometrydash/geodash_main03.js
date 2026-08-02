@@ -215,6 +215,9 @@ function GAMEOVER(){
     box.vel.x = 0;
     jumpChance = 0;
     endTimer = frameCount;
-    
+
+    if (endSprite){
+      
+    }
   }
 }

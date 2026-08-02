@@ -220,6 +220,7 @@ function GAMEOVER(){
       endSprite.remove()
     }
 
-    endSprite = new Sprite
+    endSprite = new Sprite(box.x, height / 2, 126, 24);
+    endS
   }
 }

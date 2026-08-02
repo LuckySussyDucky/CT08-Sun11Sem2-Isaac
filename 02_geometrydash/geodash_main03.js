@@ -8,7 +8,7 @@ let startCoordinates;
 const MAX_JUMPS = 1;
 let jumpChance = MAX_JUMPS;
 
-let startGame = false;
+let start = false;
 let gameOver = false;
 let endTimer = 0;
 
@@ -166,6 +166,10 @@ function draw() {
   
   if (box.collides(finishline)){
     finishGame();
+  }
+
+  if (!start && (mouse.presses() || kb.presses("space"))){
+    
   }
 }
 

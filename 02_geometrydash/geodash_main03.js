@@ -17,7 +17,7 @@ let endTimer = 0;
 let startSprite;
 let endSprite;
 
-let level;
+let level = 1;
 let lastLevel;
 
 // world building groups

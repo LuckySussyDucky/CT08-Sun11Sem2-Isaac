@@ -10,6 +10,7 @@ let jumpChance = MAX_JUMPS;
 
 let startGame = false
 let gameOver = false
+let endTimer = 
 
 // world building groups
 let ground;

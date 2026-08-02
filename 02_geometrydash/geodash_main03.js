@@ -221,6 +221,6 @@ function GAMEOVER(){
     }
 
     endSprite = new Sprite(box.x, height / 2, 126, 24);
-    endS
+    endSprite 
   }
 }

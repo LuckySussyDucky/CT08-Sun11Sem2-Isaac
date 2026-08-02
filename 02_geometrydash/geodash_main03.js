@@ -153,15 +153,7 @@ function draw() {
   }
   
   if (box.collides(finishline)){
-    clearLabel = new Sprite(); // x, y, width, height
-    clearLabel.x = width / 2;
-    clearLabel.y = height / 2;
-    clearLabel.width = 384;
-    clearLabel.height = 84;
-    clearLabel.img = clear;
-    clearLabel.layer = 100;
-    clearLabel.x = camera.x;
-    clearLabel.collider = "static";
+    finishGame()
   }
 }
 

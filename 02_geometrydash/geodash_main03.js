@@ -170,6 +170,8 @@ function draw() {
 
   if (!start && (mouse.presses() || kb.presses("space"))){
     start = true;
+    startSprite.Visible = true;
+    
   }
 }
 

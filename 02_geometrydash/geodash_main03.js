@@ -8,6 +8,9 @@ let startCoordinates;
 const MAX_JUMPS = 1;
 let jumpChance = MAX_JUMPS;
 
+let startGame = false
+let 
+
 // world building groups
 let ground;
 let orb;
@@ -18,6 +21,7 @@ let finishline;
 let cube;
 let background;
 let spike;
+let clear;
 
 // menu
 

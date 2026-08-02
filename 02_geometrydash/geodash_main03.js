@@ -12,6 +12,9 @@ let startGame = false;
 let gameOver = false;
 let endTimer = 0;
 
+let startSprite;
+let endSprite
+
 // world building groups
 let ground;
 let orb;

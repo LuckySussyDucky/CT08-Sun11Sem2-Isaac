@@ -238,5 +238,9 @@ function loadLevel(){
   ground.removeAll();
   sharp.removeAll();
   orbs.removeAll();
-  
+  finishline.removeAll();
+
+  if (lastLevel < level){
+    
+  }
 }

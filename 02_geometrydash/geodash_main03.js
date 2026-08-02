@@ -23,6 +23,7 @@ let cube;
 let background;
 let spike;
 let clear;
+let start;
 
 // menu
 

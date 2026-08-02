@@ -180,6 +180,12 @@ function draw() {
     if (box.collides(finishline)){
       finishGame();
     }
+
+    if (gameOver){
+      if (frameCount - endTimer > 120){
+        if (endSprite)
+      }
+    }
   }
 } 
 

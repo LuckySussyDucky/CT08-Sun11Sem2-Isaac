@@ -221,6 +221,7 @@ function GAMEOVER(){
     }
 
     endSprite = new Sprite(box.x, height / 2, 126, 24);
-    endSprite 
+    endSprite.collider = "none";
+    endSprite.img = 
   }
 }

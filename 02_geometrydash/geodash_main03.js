@@ -245,6 +245,6 @@ function loadLevel(){
   }
 
   if (level === 1){
-    
+    new Tiles()
   }
 }

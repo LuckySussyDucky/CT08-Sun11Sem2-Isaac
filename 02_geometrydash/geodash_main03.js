@@ -105,7 +105,7 @@ function setup() {
 
   new Tiles(tileMap1, 0, 0, 50, 50);
 
-  startSprite = new
+  startSprite = new Sprite(width / 2, height / 2 )
 }
 
 function draw() {

@@ -222,6 +222,6 @@ function GAMEOVER(){
 
     endSprite = new Sprite(box.x, height / 2, 126, 24);
     endSprite.collider = "none";
-    endSprite.img = 
+    endSprite.img = game
   }
 }

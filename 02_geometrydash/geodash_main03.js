@@ -184,13 +184,20 @@ function draw() {
 } 
 
 function finishGame(){
-  clearLabel = new Sprite(); // x, y, width, height
-  clearLabel.x = width / 2;
-  clearLabel.y = height / 2;
-  clearLabel.img = endGame;
-  clearLabel.layer = 100;
-  clearLabel.x = camera.x;
-  clearLabel.collider = "static";
+ if (!gameOver){
+    gameOver = true;
+    box.vel.x = 0;
+    jumpChance = 0;
+    endTimer = frameCount;
+
+    if (endSprite){
+      endSprite.remove()
+    }
+
+    endSprite = new Sprite(box.x, height / 2, 126, 24);
+    endSprite.collider = "none";
+    endSprite.img = endGame;
+  }
 }
 
 function resetGame(){

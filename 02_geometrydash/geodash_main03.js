@@ -107,7 +107,7 @@ function setup() {
 
   startSprite = new Sprite(width / 2, height / 2, 190, 90);
   startSprite.img = startGame;
-  startSprite.collider = "n"
+  startSprite.collider = "none";
 }
 
 function draw() {

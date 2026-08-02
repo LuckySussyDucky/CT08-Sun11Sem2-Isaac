@@ -214,6 +214,7 @@ function GAMEOVER(){
     gameOver = true;
     box.vel.x = 0;
     jumpChance = 0;
+    endTimer = frameCount;
     
   }
 }

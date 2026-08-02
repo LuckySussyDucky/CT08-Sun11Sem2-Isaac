@@ -182,5 +182,5 @@ function resetGame(){
     orb.collider = "static";
   }
 
-  P
+  death
 }

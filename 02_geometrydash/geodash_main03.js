@@ -123,7 +123,7 @@ function draw() {
     if (frameCount % 60 < 30){
       startSprite.visible = true;   
     } else{
-      startSprite.visible - false;
+      startSprite.visible = false;
     }
   }
 

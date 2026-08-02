@@ -248,5 +248,7 @@ function loadLevel(){
     new Tiles(tileMap1, 0, 0, 50, 50);
   } else if (level === 2){
     new Tiles(tileMap2, 0, 0, 50, 50);
+  } else if (level === 3){
+    new Tiles(tileMap3, 0, 0, 50, 50);
   }
 }

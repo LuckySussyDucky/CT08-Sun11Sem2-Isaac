@@ -237,5 +237,6 @@ function resetGame(){
 function loadLevel(){
   ground.removeAll();
   sharp.removeAll();
+  orbs.removeAll();
   
 }

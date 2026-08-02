@@ -25,8 +25,8 @@ let finishline;
 let cube;
 let background;
 let spike;
-let clear;
-let start;
+let endGame;
+let startGame;
 
 // menu
 

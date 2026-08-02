@@ -235,5 +235,6 @@ function resetGame(){
 }
 
 function loadLevel(){
-  
+  ground.removeAll();
+  sharp
 }

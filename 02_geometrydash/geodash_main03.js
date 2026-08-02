@@ -104,6 +104,8 @@ function setup() {
   particles = new Group();
 
   new Tiles(tileMap1, 0, 0, 50, 50);
+
+  startSprite = new
 }
 
 function draw() {

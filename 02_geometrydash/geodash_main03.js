@@ -187,11 +187,12 @@ function draw() {
           endSprite.remove();
         }
 
-        startGame = false;
+        start = false;
         gameOver = false;
         resetGame();
 
-        level += 1
+        level += 1;
+        loadLevel();
       }
     }
   }

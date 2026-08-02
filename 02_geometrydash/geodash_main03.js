@@ -181,6 +181,4 @@ function resetGame(){
     orb.visible = true;
     orb.collider = "static";
   }
-
-  deathSound.Play()
 }

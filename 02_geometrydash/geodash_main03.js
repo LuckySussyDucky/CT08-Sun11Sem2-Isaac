@@ -215,20 +215,3 @@ function resetGame(){
     orb.collider = "static";
   }
 }
-
-function GAMEOVER(){
-  if (!gameOver){
-    gameOver = true;
-    box.vel.x = 0;
-    jumpChance = 0;
-    endTimer = frameCount;
-
-    if (endSprite){
-      endSprite.remove()
-    }
-
-    endSprite = new Sprite(box.x, height / 2, 126, 24);
-    endSprite.collider = "none";
-    endSprite.img = endGame;
-  }
-}

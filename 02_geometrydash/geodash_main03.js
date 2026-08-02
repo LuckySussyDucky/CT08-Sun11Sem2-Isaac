@@ -9,7 +9,7 @@ const MAX_JUMPS = 1;
 let jumpChance = MAX_JUMPS;
 
 let startGame = false
-let 
+let gameOver = false
 
 // world building groups
 let ground;

@@ -212,6 +212,8 @@ function resetGame(){
 function GAMEOVER(){
   if (!gameOver){
     gameOver = true;
-    box.vel
+    box.vel.x = 0;
+    jumpChance = 0;
+    
   }
 }

@@ -123,6 +123,10 @@ function draw() {
       startSprite.Visible - false;
     }
   }
+
+  if (start){
+    
+  }
 }
 
 function finishGame(){

@@ -233,3 +233,7 @@ function resetGame(){
     orb.collider = "static";
   }
 }
+
+function loadLevel(){
+  
+}

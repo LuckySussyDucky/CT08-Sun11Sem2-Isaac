@@ -188,7 +188,10 @@ function draw() {
         }
 
         startGame = false;
-        gameOver = false
+        gameOver = false;
+        resetGame();
+
+        level += 1
       }
     }
   }

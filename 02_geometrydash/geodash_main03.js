@@ -179,8 +179,7 @@ function draw() {
     if (box.collides(finishline)){
       finishGame();
     }
-
-    }
+  }
 } 
 
 function finishGame(){

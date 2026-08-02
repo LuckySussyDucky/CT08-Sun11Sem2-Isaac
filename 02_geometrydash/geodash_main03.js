@@ -38,7 +38,7 @@ function preload() {
 
   tileMap1 = loadStrings("stages/tiles1.txt");
 
-  stereoMadness = loadSound("02_geometrydash/assets/stereo-madness.mp3")
+  stereoMadness = loadSound("assets/stereo-madness.mp3")
   deathSound = loadSound("assets/geometry-dash-death-sound.mp3")
   startSound = loadSound("assets/game-start.mp3")
 

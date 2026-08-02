@@ -13,7 +13,10 @@ let gameOver = false;
 let endTimer = 0;
 
 let startSprite;
-let endSprite
+let endSprite;
+
+let level;
+let lastLevel;
 
 // world building groups
 let ground;

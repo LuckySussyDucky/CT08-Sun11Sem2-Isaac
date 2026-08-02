@@ -115,7 +115,7 @@ function draw() {
 
   if (!start && (mouse.presses() || kb.presses("space"))){
     start = true;
-    startSprite.Visible = true;
+    startSprite.Visible = false;
   } else if (!start){
     if (frameCount % 60 < 30){
       startSprite.Visible = true;   

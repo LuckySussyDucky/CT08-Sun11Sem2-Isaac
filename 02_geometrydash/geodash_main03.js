@@ -168,7 +168,7 @@ function finishGame(){
   clearLabel = new Sprite(); // x, y, width, height
   clearLabel.x = width / 2;
   clearLabel.y = height / 2;
-  clearLabel.img = clear;
+  clearLabel.img = startGame;
   clearLabel.layer = 100;
   clearLabel.x = camera.x;
   clearLabel.collider = "static";

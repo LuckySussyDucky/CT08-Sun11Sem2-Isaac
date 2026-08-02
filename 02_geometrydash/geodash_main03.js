@@ -111,7 +111,9 @@ function setup() {
 }
 
 function draw() {
-  image(background, 0, 0, 800, 600);
+  
+  clearimage(background, 0, 0, 800, 600);
+
 
   if (!start && (mouse.presses() || kb.presses("space"))){
     start = true;

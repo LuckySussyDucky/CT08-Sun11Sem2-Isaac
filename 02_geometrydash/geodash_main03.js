@@ -188,7 +188,7 @@ function draw() {
         }
 
         startGame = false;
-        
+        gameOver = false
       }
     }
   }

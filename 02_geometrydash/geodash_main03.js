@@ -211,6 +211,7 @@ function resetGame(){
 
 function GAMEOVER(){
   if (!gameOver){
-    
+    gameOver = true;
+    box.vel
   }
 }

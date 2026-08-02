@@ -112,18 +112,18 @@ function setup() {
 
 function draw() {
   
-  clear();
+  clear()
   image(background, 0, 0, 800, 600);
 
 
   if (!start && (mouse.presses() || kb.presses("space"))){
     start = true;
-    startSprite.visible = false;
+    startSprite.Visible = false;
   } else if (!start){
     if (frameCount % 60 < 30){
-      startSprite.visible = true;   
+      startSprite.Visible = true;   
     } else{
-      startSprite.visible - false;
+      startSprite.Visible - false;
     }
   }
 

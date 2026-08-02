@@ -220,6 +220,6 @@ function GAMEOVER(){
       endSprite.remove()
     }
 
-    
+    endSprite = new Sprite
   }
 }

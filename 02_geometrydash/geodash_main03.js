@@ -118,12 +118,12 @@ function draw() {
 
   if (!start && (mouse.presses() || kb.presses("space"))){
     start = true;
-    startSprite.Visible = false;
+    startSprite.visible = false;
   } else if (!start){
     if (frameCount % 60 < 30){
-      startSprite.Visible = true;   
+      startSprite.visible = true;   
     } else{
-      startSprite.Visible - false;
+      startSprite.visible - false;
     }
   }
 

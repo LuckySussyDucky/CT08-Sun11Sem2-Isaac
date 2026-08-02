@@ -173,7 +173,7 @@ function draw() {
     startSprite.Visible = true;
   } else if (!start){
     if (frameCount % 60 < 30){
-
+      startSprite.Visible = true;   
     }
 
   }

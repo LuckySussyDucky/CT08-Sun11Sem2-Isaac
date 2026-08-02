@@ -46,6 +46,8 @@ function preload() {
 
   tileMap1 = loadStrings("stages/tiles1.txt");
   tileMap2 = loadStrings("stages/tiles2.txt");
+  tileMap3 = loadStrings("stages/tiles2.txt");
+
 
   // stereoMadness = loadSound("assets/stereo-madness.mp3");
   //deathSound = loadSound("assets/geometry-dash-death-sound.mp3");

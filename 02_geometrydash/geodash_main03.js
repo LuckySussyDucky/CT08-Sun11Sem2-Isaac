@@ -217,7 +217,9 @@ function GAMEOVER(){
     endTimer = frameCount;
 
     if (endSprite){
-      
+      endSprite.remove()
     }
+
+    
   }
 }

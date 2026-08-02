@@ -241,6 +241,6 @@ function loadLevel(){
   finishline.removeAll();
 
   if (lastLevel < level){
-    
+    level = 1
   }
 }

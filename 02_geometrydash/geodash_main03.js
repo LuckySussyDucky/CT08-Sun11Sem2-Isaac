@@ -125,7 +125,61 @@ function draw() {
   }
 
   if (start){
+    box.collider = "dynamic";
+    box.vel.x = 8;
+
+
+  
+  if (box.x >= width / 2){
+    camera.x = box. x;
+  } else{
+    camera.x = width / 2;
+  }
+
+  if (kb.presses("space") || mouse.presses("left") && jumpChance > 0){
+    box.vel.y = -10;
+    box.rotateTo(box.rotation + 90, 15);  
+    jumpChance -= 1;
+  }
+
+  // if (kb.presses("space") || mouse.presses("left")){
+  //   box.vel.y = -10;
+  //   box.rotateTo(box.rotation + 90, 15);
+  // }
     
+  if (box.collides(ground) && jumpChance < MAX_JUMPS){
+    jumpChance = MAX_JUMPS;
+  }
+
+  if (box.collides(sharp)){
+    resetGame();
+  }
+
+  for (let tile of ground){
+    if (box.colliding(tile)){
+      let leftEdge = tile.x - tile.w / 2;
+      let leftEdgeHeight = tile.y - tile.h / 2;
+
+      if (box.x < leftEdge && box.y > leftEdgeHeight){
+        resetGame();
+        break;
+      }
+    }
+  }
+
+  for (let orb of orbs){
+    if (box.colliding(orb)){
+      orb.visible = false;
+      orb.collider = "none";
+      box.vel.y = -10;
+      jumpChance = MAX_JUMPS;
+    }
+  }
+  
+  if (box.collides(finishline)){
+    finishGame();
+  }
+
   }
 }
 

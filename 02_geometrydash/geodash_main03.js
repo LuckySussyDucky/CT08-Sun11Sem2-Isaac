@@ -3,6 +3,7 @@ let box;
 
 // game variables
 let tileMap1;
+
 let startCoordinates;
 
 const MAX_JUMPS = 1;

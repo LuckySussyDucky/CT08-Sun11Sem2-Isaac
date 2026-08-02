@@ -165,6 +165,10 @@ function draw() {
   }
 }
 
+
+function finishGame(){
+  
+}
 function resetGame(){
   box.rotation = 0;
 

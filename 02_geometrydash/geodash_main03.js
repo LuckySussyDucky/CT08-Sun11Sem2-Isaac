@@ -8,9 +8,9 @@ let startCoordinates;
 const MAX_JUMPS = 1;
 let jumpChance = MAX_JUMPS;
 
-let startGame = false
-let gameOver = false
-let endTimer = 
+let startGame = false;
+let gameOver = false;
+let endTimer = 0;
 
 // world building groups
 let ground;

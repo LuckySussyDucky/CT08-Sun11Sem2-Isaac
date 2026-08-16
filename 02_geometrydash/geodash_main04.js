@@ -130,7 +130,7 @@ function setup() {
   progressBarBG.collider = "none";
   progressBarBG.color = "black";
   progressBarBG.layer = 10; // draw on top of everything else
-    
+
   // Progress bar indicator (cube icon)
   progressIndicator = new Sprite(20, 30, 15, 15);
   progressIndicator.collider = "none";
@@ -296,4 +296,17 @@ function drawBackground() {
   tint(blend); //turn on the tint
   image(background, progress, 0, 800, 600); //draw and move background 
   noTint(); //remove tint on all other objects
+}
+
+function drawProgress(){
+
+    let totalLength = finishline[0].x;
+
+    let progress = map(box.x, 0, totalLength, 20, width - 20); //Convert the player's x position into progress bar x position.
+
+    //make progress bar follow camera (UI ELEMENT)
+    progressBarBG.x = camera.x;
+
+    //move progressIndicator accourdingly to progress
+    progressIndicator.x = camera.x - width / 2 + progress;
 }

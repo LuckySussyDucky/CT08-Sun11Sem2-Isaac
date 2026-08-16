@@ -59,6 +59,7 @@ function preload() {
   tileMap1 = loadStrings("stages/tiles1.txt");
   tileMap2 = loadStrings("stages/tiles2.txt");
   tileMap3 = loadStrings("stages/tiles3.txt");
+  tileMap3 = loadStrings("stages/tiles3.txt");
 
 
   stereoMadness = createAudio("assets/stereo-madness.mp3");

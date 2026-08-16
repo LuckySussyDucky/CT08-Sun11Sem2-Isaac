@@ -5,6 +5,7 @@ let box;
 let tileMap1;
 let tileMap2;
 let tileMap3;
+let tileMap4;
 let startCoordinates;
 
 const MAX_JUMPS = 1;

@@ -257,6 +257,8 @@ function resetGame(){
     orb.visible = true;
     orb.collider = "static";
   }
+
+  particles.removeAll();
 }
 
 function loadLevel(){

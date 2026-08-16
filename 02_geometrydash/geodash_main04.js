@@ -264,7 +264,7 @@ function resetGame(){
   particles.removeAll();
 
   if (lost){
-    
+    deathSound.play();
   }
 }
 

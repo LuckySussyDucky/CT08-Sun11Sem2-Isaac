@@ -20,6 +20,8 @@ let endSprite;
 let level = 1;
 let lastLevel;
 
+let mapused;
+
 // world building groups
 let ground;
 let orb;

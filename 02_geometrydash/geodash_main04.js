@@ -258,6 +258,10 @@ function finishGame(){
 }
 
 function resetGame(){
+  if (lost){
+    deathSound.play();
+    stereoMadness.stop();
+  }
   box.rotation = 0;
 
   box.x = startCoordinates[0];
@@ -274,10 +278,7 @@ function resetGame(){
 
   particles.removeAll();
 
-  if (lost){
-    deathSound.play();
-    stereoMadness.stop();
-  }
+  
 }
 
 function loadLevel(){

@@ -60,9 +60,9 @@ function preload() {
   tileMap3 = loadStrings("stages/tiles3.txt");
 
 
-  // stereoMadness = loadSound("assets/stereo-madness.mp3");
-  // deathSound = loadSound("assets/geometry-dash-death-sound.mp3");
-  // startSound = loadSound("assets/game-start.mp3");
+  stereoMadness = loadSound("assets/stereo-madness.mp3");
+  deathSound = loadSound("assets/geometry-dash-death-sound.mp3");
+  startSound = loadSound("assets/game-start.mp3");
 
   
 }

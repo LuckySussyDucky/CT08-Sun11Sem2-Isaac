@@ -244,7 +244,7 @@ function finishGame(){
     endSprite.collider = "none";
     endSprite.img = endGame;
 
-    
+    startSound.play();
   }
 }
 

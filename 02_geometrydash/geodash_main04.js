@@ -262,6 +262,7 @@ function resetGame(){
     deathSound.play();
     stereoMadness.stop();
   }
+  startGame = 
   box.rotation = 0;
 
   box.x = startCoordinates[0];

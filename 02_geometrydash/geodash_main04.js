@@ -226,6 +226,10 @@ function draw() {
 
       particles.add(particle);
     }
+
+    if (stereoMadness.elt.paused){
+      stereoMadness.play();
+    }
   }
 } 
 

@@ -121,6 +121,8 @@ function setup() {
   startSprite = new Sprite(width / 2, height / 2, 190, 90);
   startSprite.img = startGame;
   startSprite.collider = "none";
+
+  particle
 }
 
 function draw() {

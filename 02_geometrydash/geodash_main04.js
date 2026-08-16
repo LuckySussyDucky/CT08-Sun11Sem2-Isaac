@@ -231,6 +231,8 @@ function draw() {
       stereoMadness.play();
     }
   }
+
+  if (!start)
 } 
 
 function finishGame(){

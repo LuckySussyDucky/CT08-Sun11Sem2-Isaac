@@ -210,6 +210,19 @@ function draw() {
         loadLevel();
       }
     }
+
+    if (frameCount % 3 === 0 && box.colliding(ground) && box.vel.x > 0.5){
+      box.rotation = 0;
+      
+      let particle = new Sprite(box.x, box.y + box.h / 2, 8, 8, "none");
+      particle.vel.x = -box.vel.x / 2;
+      particle.vel.y = random(-2, 0);
+      particle.color = "white";
+      particle.strokeWeight = 0;
+      particle.life = 30;
+
+      particles.add(particle);
+    }
   }
 } 
 

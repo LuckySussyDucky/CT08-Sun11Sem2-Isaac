@@ -269,7 +269,6 @@ function drawBackground() {
 
   let progress = map(box.x, 0, totalJourney, -100, 0);
 
-  let c1 = color("#3f67e1"); //colours for lerping
   let c2 = color("#6b89e4");
 
   let amt = (sin(frameCount * 0.5) + 1) / 2; //Create a value that repeatedly changes between 0 and 1.

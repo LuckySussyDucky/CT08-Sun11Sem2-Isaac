@@ -181,6 +181,7 @@ function draw() {
 
         if (box.x < leftEdge && box.y > leftEdgeHeight){
           resetGame();
+          lost = true;
           break;
         }
       }

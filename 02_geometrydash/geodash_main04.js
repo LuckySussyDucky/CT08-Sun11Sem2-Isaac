@@ -262,6 +262,10 @@ function resetGame(){
   }
 
   particles.removeAll();
+
+  if (lost){
+    
+  }
 }
 
 function loadLevel(){

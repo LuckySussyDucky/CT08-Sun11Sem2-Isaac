@@ -123,6 +123,19 @@ function setup() {
   startSprite = new Sprite(width / 2, height / 2, 190, 90);
   startSprite.img = startGame;
   startSprite.collider = "none";
+
+  ///----PROGRESSBAR---///
+  // Progress bar background
+  progressBarBG = new Sprite(width / 2, 30, width - 40, 5);
+  progressBarBG.collider = "none";
+  progressBarBG.color = "black";
+  progressBarBG.layer = 10; // draw on top of everything else
+    // Progress bar indicator (cube icon)
+    progressIndicator = new Sprite(20, 30, 15, 15);
+    progressIndicator.collider = "none";
+    progressIndicator.img = cubeProgressImage;
+    progressIndicator.layer = 11; // draw on top of progressBarBG
+    progressIndicator.scale *= 0.5; //change scale to make it smaller
 }
 
 function draw() {

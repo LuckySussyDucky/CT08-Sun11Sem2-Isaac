@@ -198,6 +198,7 @@ function draw() {
     
     if (box.collides(finishline)){
       finishGame();
+      particles.removeAll();
       lost = false;
     }
 

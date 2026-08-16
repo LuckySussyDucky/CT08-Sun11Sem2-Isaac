@@ -302,7 +302,7 @@ function loadLevel(){
   } else if (level === 3){
     new Tiles(tileMap3, 0, 0, 50, 50);
     mapUsed = tileMap3;
-  } else if (level === 3){
+  } else if (level === 4){
     new Tiles(tileMap4, 0, 0, 50, 50);
     mapUsed = tileMap4;
   }

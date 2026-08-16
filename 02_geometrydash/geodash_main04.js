@@ -22,6 +22,10 @@ let lastLevel;
 
 let mapUsed;
 
+let cubeProgressImage;
+let progressIndicator;
+let progressBarBG;
+
 // world building groups
 let ground;
 let orb;

@@ -226,6 +226,7 @@ function draw() {
 
       particles.add(particle);
     }
+  }
 } 
 
 function finishGame(){

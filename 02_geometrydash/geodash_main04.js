@@ -22,6 +22,8 @@ let lastLevel;
 
 let mapUsed;
 
+let particles;
+
 // world building groups
 let ground;
 let orb;

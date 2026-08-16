@@ -172,7 +172,6 @@ function draw() {
     if (box.collides(sharp)){
       lost = true;
       resetGame();
-      
     }
 
     for (let tile of ground){
@@ -183,7 +182,6 @@ function draw() {
         if (box.x < leftEdge && box.y > leftEdgeHeight){
           lost = true;
           resetGame();
-          
           break;
         }
       }

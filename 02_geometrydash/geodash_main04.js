@@ -62,7 +62,7 @@ function preload() {
 
   stereoMadness = createAudio("assets/stereo-madness.mp3");
   deathSound = createAudio("assets/geometry-dash-death-sound.mp3");
-  startSound = loadSound("assets/game-start.mp3");
+  startSound = createAudio("assets/game-start.mp3");
 
   
 }

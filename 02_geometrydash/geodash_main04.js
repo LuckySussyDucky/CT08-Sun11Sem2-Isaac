@@ -157,6 +157,7 @@ function draw() {
   }
 
   if (start){
+    drawProgress()
     box.collider = "dynamic";
     box.vel.x = 8;
   

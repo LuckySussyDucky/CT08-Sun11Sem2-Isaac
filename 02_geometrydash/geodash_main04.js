@@ -259,8 +259,8 @@ function finishGame(){
 
 function resetGame(){
   if (lost){
-    deathSound.play();
     stereoMadness.stop();
+    deathSound.play();
   }
   start = false;
   box.rotation = 0;

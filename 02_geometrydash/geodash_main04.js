@@ -57,8 +57,8 @@ function preload() {
 
 
   // stereoMadness = loadSound("assets/stereo-madness.mp3");
-  //deathSound = loadSound("assets/geometry-dash-death-sound.mp3");
-  //startSound = loadSound("assets/game-start.mp3");
+  // deathSound = loadSound("assets/geometry-dash-death-sound.mp3");
+  // startSound = loadSound("assets/game-start.mp3");
 
   
 }

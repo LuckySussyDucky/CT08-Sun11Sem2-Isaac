@@ -22,10 +22,6 @@ let lastLevel;
 
 let mapUsed;
 
-let cubeProgressImage;
-let progressIndicator;
-let progressBarBG;
-
 // world building groups
 let ground;
 let orb;
@@ -123,20 +119,6 @@ function setup() {
   startSprite = new Sprite(width / 2, height / 2, 190, 90);
   startSprite.img = startGame;
   startSprite.collider = "none";
-
-  ///----PROGRESSBAR---///
-  // Progress bar background
-  progressBarBG = new Sprite(width / 2, 30, width - 40, 5);
-  progressBarBG.collider = "none";
-  progressBarBG.color = "black";
-  progressBarBG.layer = 10; // draw on top of everything else
-
-  // Progress bar indicator (cube icon)
-  progressIndicator = new Sprite(20, 30, 15, 15);
-  progressIndicator.collider = "none";
-  progressIndicator.img = cubeProgressImage;
-  progressIndicator.layer = 11; // draw on top of progressBarBG
-  progressIndicator.scale *= 0.5; //change scale to make it smaller
 }
 
 function draw() {
@@ -157,7 +139,6 @@ function draw() {
   }
 
   if (start){
-    drawProgress()
     box.collider = "dynamic";
     box.vel.x = 8;
   
@@ -297,17 +278,4 @@ function drawBackground() {
   tint(blend); //turn on the tint
   image(background, progress, 0, 800, 600); //draw and move background 
   noTint(); //remove tint on all other objects
-}
-
-function drawProgress(){
-
-    let totalLength = finishline[0].x;
-
-    let progress = map(box.x, 0, totalLength, 20, width - 20); //Convert the player's x position into progress bar x position.
-
-    //make progress bar follow camera (UI ELEMENT)
-    progressBarBG.x = camera.x;
-
-    //move progressIndicator accourdingly to progress
-    progressIndicator.x = camera.x - width / 2 + progress;
 }

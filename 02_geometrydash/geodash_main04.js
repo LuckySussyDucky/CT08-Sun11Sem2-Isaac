@@ -20,11 +20,7 @@ let endSprite;
 let level = 1;
 let lastLevel;
 
-let mapused;
-
-let cubeProgressImage;
-let progressIndicator;
-let progressBarBG;
+let mapUsed;
 
 // world building groups
 let ground;

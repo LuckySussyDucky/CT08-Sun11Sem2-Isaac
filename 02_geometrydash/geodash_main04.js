@@ -257,9 +257,10 @@ function loadLevel(){
     mapUsed = tileMap1;
   } else if (level === 2){
     new Tiles(tileMap2, 0, 0, 50, 50);
-    
+    mapUsed = tileMap2;
   } else if (level === 3){
     new Tiles(tileMap3, 0, 0, 50, 50);
+    mapUsed = tileMap3;
   }
 }
 

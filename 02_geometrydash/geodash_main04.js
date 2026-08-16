@@ -130,12 +130,13 @@ function setup() {
   progressBarBG.collider = "none";
   progressBarBG.color = "black";
   progressBarBG.layer = 10; // draw on top of everything else
-    // Progress bar indicator (cube icon)
-    progressIndicator = new Sprite(20, 30, 15, 15);
-    progressIndicator.collider = "none";
-    progressIndicator.img = cubeProgressImage;
-    progressIndicator.layer = 11; // draw on top of progressBarBG
-    progressIndicator.scale *= 0.5; //change scale to make it smaller
+    
+  // Progress bar indicator (cube icon)
+  progressIndicator = new Sprite(20, 30, 15, 15);
+  progressIndicator.collider = "none";
+  progressIndicator.img = cubeProgressImage;
+  progressIndicator.layer = 11; // draw on top of progressBarBG
+  progressIndicator.scale *= 0.5; //change scale to make it smaller
 }
 
 function draw() {

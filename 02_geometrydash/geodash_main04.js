@@ -232,7 +232,9 @@ function draw() {
     }
   }
 
-  if (!start)
+  if (!start){
+    stereoMadness.stop();
+  }
 } 
 
 function finishGame(){

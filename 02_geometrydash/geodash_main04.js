@@ -226,7 +226,6 @@ function draw() {
 
       particles.add(particle);
     }
-  }
 } 
 
 function finishGame(){
@@ -245,6 +244,7 @@ function finishGame(){
     endSprite.img = endGame;
 
     startSound.play();
+    stereoMadness.stop();
   }
 }
 
@@ -267,6 +267,7 @@ function resetGame(){
 
   if (lost){
     deathSound.play();
+    stereoMadness.stop();
   }
 }
 

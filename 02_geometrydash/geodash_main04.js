@@ -198,6 +198,7 @@ function draw() {
     
     if (box.collides(finishline)){
       finishGame();
+      lost = false;
     }
 
     if (gameOver){

@@ -124,7 +124,7 @@ function setup() {
   startSprite.img = startGame;
   startSprite.collider = "none";
 
-  drawBackground()
+  drawBackground();
 }
 
 function draw() {

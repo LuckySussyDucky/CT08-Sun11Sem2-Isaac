@@ -279,3 +279,16 @@ function drawBackground() {
   image(bg, progress, 0, 800, 600); //draw and move background 
   noTint(); //remove tint on all other objects
 }
+
+function drawProgress(){
+
+    let totalLength = finishline[0].x;
+
+    let progress = map(box.x, 0, totalLength, 20, width - 20); //Convert the player's x position into progress bar x position.
+
+    //make progress bar follow camera (UI ELEMENT)
+    progressBarBG.x = camera.x;
+
+    //move progressIndicator accourdingly to progress
+    progressIndicator.x = camera.x - width / 2 + progress;
+}

@@ -154,7 +154,7 @@ function draw() {
 
     if (kb.presses("space") || mouse.presses("left") && jumpChance > 0){
       box.vel.y = -10;
-      box.rotateTo(box.rotation + 90, 15);  
+      box.rotateTo(box.rotation + 360, 15);  
       jumpChance -= 1;
     }
 

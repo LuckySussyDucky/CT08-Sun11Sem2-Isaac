@@ -122,7 +122,7 @@ function setup() {
   startSprite.img = startGame;
   startSprite.collider = "none";
 
-  particle
+  particles = new Group();
 }
 
 function draw() {

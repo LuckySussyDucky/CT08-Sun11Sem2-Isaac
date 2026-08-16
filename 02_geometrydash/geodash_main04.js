@@ -41,9 +41,11 @@ let startGame;
 
 
 // sound assets
-let stereoMadness
-let deathSound
-let startSound
+let stereoMadness;
+let deathSound;
+let startSound;
+
+let lost = false;
 
 
 function preload() {

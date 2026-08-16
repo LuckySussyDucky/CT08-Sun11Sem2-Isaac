@@ -278,6 +278,6 @@ function drawBackground() {
   let blend = lerpColor(c1, c2, amt); //lerp between two colours
 
   tint(blend); //turn on the tint
-  image(bg, progress, 0, 800, 600); //draw and move background 
+  image(background, progress, 0, 800, 600); //draw and move background 
   noTint(); //remove tint on all other objects
 }

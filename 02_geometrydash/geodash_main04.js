@@ -171,6 +171,7 @@ function draw() {
 
     if (box.collides(sharp)){
       resetGame();
+      lost = true;
     }
 
     for (let tile of ground){

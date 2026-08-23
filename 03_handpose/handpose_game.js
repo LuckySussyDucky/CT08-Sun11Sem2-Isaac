@@ -49,7 +49,7 @@ function setup() {
 
     fingerTip = new Sprite();
     fingerTip.diameyet = 60;
-    fingerTip
+    fingerTip.collider = ""
 }
 
 function draw() {

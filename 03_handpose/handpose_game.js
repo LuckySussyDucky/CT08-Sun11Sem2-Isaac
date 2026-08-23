@@ -48,8 +48,9 @@ function setup() {
     handpose.detectStart(video, gotHands)
 
     fingerTip = new Sprite();
-    fingerTip.diameyet = 60;
-    fingerTip.collider = ""
+    fingerTip.diameter = 60;
+    fingerTip.collider = "kinematic";
+    fingerTip
 }
 
 function draw() {

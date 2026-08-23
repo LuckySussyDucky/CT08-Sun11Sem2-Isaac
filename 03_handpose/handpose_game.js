@@ -62,7 +62,7 @@ function draw() {
 
         fingerTip.x = keypoint.x
         fingerTip.y = keypoint.y
-        fingerT
+        fingerTip.visible = true
 
         circle(keypoint.x, keypoint.y, 30);
     }

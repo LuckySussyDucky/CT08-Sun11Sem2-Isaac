@@ -15,6 +15,8 @@ let balloon;
 //=========================================
 
 function preload() {
+    AudioWorkletNode.gravity
+
     let options = {
         flipped: true,
         runtime: "tfjs",

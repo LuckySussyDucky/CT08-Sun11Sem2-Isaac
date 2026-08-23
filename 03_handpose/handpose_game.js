@@ -15,8 +15,6 @@ let balloon;
 //=========================================
 
 function preload() {
-    world.gravity.y = 6
-
     let options = {
         flipped: true,
         runtime: "tfjs",
@@ -29,7 +27,9 @@ function preload() {
 }
 
 function setup() {
+    world.gravity.y = 6
     createCanvas(videoW, videoH);
+    
     let constraints = {
         video: {
             mandatory: {

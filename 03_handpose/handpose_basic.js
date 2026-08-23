@@ -15,7 +15,7 @@ function preload() {
         landmarkModelUrl: undefined,
     }
 
-    handpose = ml5.handPose
+    handpose = ml5.handPose(options);
 }
 
 function setup() {}

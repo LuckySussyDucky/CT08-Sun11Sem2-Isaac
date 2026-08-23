@@ -38,6 +38,7 @@ function setup() {
     };
 
     video = createCapture(constraints);
+    video.size()
 }
 
 function draw() {}

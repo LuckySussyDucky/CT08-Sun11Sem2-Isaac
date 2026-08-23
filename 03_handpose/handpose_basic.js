@@ -27,8 +27,8 @@ function setup() {
         video: {
             mandatory: {
                 minWidth: videoW,
-                minHeight: EncodedVideoChunk,
-            }
+                minHeight: videoH
+            },
         }
     }
 }

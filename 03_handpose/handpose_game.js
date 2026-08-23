@@ -66,6 +66,9 @@ function draw() {
 
         circle(keypoint.x, keypoint.y, 30);
     }
+    else{
+        fingerTip
+    }
 }
 
 //=========================================

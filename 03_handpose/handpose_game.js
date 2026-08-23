@@ -50,7 +50,8 @@ function draw() {
     image(video, 0, 0, videoW, videoH);
 
     if (hands.length > 0){
-
+        let hand = hands[0];
+        let keypoint
     }
 }
 

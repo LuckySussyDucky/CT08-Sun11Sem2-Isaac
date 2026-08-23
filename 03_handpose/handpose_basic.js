@@ -6,7 +6,9 @@
 // Code
 //=========================================
 
-function preload() {}
+function preload() {
+    let options
+}
 
 function setup() {}
 

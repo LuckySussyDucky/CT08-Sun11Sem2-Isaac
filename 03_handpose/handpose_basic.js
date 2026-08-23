@@ -41,7 +41,7 @@ function setup() {
     video.size(640, 480);
     video.hide();
 
-    handpos
+    handPose.detectStart(video)
 }
 
 function draw() {}

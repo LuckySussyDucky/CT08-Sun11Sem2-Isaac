@@ -29,7 +29,7 @@ function preload() {
 function setup() {
     world.gravity.y = 6
     createCanvas(videoW, videoH);
-    
+
     let constraints = {
         video: {
             mandatory: {
@@ -54,6 +54,8 @@ function setup() {
     fingerTip.diameter = 60;
     fingerTip.collider = "kinematic";
     fingerTip.color = "rgba(0, 255, 0, 0.05)";
+
+    balloon 
 }
 
 function draw() {

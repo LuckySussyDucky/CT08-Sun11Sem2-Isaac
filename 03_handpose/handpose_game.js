@@ -57,7 +57,9 @@ function setup() {
 
     balloon = new Sprite();
     balloon.diameter = 60;
-    balloon.
+    balloon.collider = "dynamic";
+    balloon.color = "red";
+    
 }
 
 function draw() {

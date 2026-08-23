@@ -34,8 +34,8 @@ function setup() {
         },
 
         audio: false,
-        flipped: true
-    }
+        flipped: true,
+    };
 }
 
 function draw() {}

@@ -22,7 +22,7 @@ function preload() {
 }
 
 function setup() {
-    create
+    createCanvas(videoW, videoH);
 }
 
 function draw() {}

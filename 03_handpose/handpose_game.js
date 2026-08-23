@@ -61,7 +61,8 @@ function setup() {
     balloon.color = "red";
     balloon.x = width / 2;
     balloon.y = 100;
-    balloon.bounce
+    balloon.bounciness = 1;
+    
 }
 
 function draw() {

@@ -60,7 +60,8 @@ function setup() {
     balloon.collider = "dynamic";
     balloon.color = "red";
     balloon.x = width / 2;
-    balloon.y = 
+    balloon.y = 100;
+    balloon.bounce
 }
 
 function draw() {

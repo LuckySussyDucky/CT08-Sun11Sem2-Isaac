@@ -7,7 +7,9 @@
 //=========================================
 
 function preload() {
-    let options
+    let options = {
+        flipped =
+    }
 }
 
 function setup() {}

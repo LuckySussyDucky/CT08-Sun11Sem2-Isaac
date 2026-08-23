@@ -2,7 +2,8 @@
 // Variables
 //=========================================
 
-let videoW =
+let videoW = 640;
+let videoH = 480;
 
 //=========================================
 // Code
@@ -20,7 +21,10 @@ function preload() {
     handpose = ml5.handPose(options);
 }
 
-function setup() {}
+function setup() {
+
+    
+}
 
 function draw() {}
 

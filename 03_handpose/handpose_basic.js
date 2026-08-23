@@ -47,7 +47,7 @@ function setup() {
 }
 
 function draw() {
-    Image(video)
+    Image(video, 0, 0)
 }
 
 //=========================================

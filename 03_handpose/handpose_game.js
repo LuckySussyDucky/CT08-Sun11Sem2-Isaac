@@ -8,6 +8,7 @@ let videoH = 480;
 let hands = [];
 
 let fingerTip;
+let balloon;
 
 //=========================================
 // Code

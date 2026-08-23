@@ -47,7 +47,8 @@ function setup() {
 
     handpose.detectStart(video, gotHands)
 
-    fingerTip = new Sprite()
+    fingerTip = new Sprite();
+    fingerTip.diameyet
 }
 
 function draw() {

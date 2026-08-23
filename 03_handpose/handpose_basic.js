@@ -54,7 +54,7 @@ function draw() {
 
         for (let j = 0; j < hand.keypoints.length; j++) {
             let keypoint = hand.keypoints[j];
-            CSSNumericValue(keypoint.x, keypoint.y, 10)
+            circle(keypoint.x, keypoint.y, 10);
         }
     }
 }

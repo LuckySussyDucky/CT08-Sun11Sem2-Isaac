@@ -15,7 +15,7 @@ let balloon;
 //=========================================
 
 function preload() {
-    AudioWorkletNode.gravity
+    world.gravity.y = 6
 
     let options = {
         flipped: true,

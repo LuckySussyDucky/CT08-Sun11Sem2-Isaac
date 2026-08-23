@@ -10,7 +10,8 @@ function preload() {
     let options = {
         flipped: true,
         runtime: "tfjs",
-        modelType = "full",
+        modelType: "full",
+        dec
     }
 }
 

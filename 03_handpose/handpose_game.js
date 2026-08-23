@@ -54,6 +54,8 @@ function draw() {
 
         for (let j = 0; j < hand.keypoints.length; j++) {
             let keypoint = hand.keypoints[j];
+
+            if (keypoint === hand.keypoint)
             circle(keypoint.x, keypoint.y, 10);
         }
     }

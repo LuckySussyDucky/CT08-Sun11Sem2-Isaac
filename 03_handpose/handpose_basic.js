@@ -8,7 +8,8 @@
 
 function preload() {
     let options = {
-        flipped =
+        flipped: true,
+        runtime: "tf"
     }
 }
 

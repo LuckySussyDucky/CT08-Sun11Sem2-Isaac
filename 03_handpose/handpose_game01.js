@@ -71,6 +71,8 @@ function setup() {
     bottomWall = new Sprite(width / 2, height, width, 10, "static");
     leftWall = new Sprite(0, height / 2, 10, height, "static");
     rightWall = new Sprite(width, height / 2, 10, height, "static");
+
+    boundaryGroup = new Group
 }
 
 function draw() {

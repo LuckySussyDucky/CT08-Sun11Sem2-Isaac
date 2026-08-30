@@ -21,7 +21,7 @@ function preload() {
 function draw() {
     background(250);
     
-    if (kb.presses("space") || mouse.presses()) {
+    if (kb.presses("space") || kb.presses("up")) {
         box.vel.y = -3;
     }
 

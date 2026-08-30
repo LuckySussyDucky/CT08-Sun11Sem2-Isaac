@@ -67,7 +67,7 @@ function setup() {
     balloon.mass = 1;
     balloon.drag = 0.1;
 
-    topWall
+    topWall = new Sprite(width / 2, 0)
 }
 
 function draw() {

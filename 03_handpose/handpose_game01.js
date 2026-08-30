@@ -12,8 +12,8 @@ let balloon;
 
 let rightWall, leftWall, bottomWall, topWall, boundaryGroup;
 
-let gameStarted;
-let gameOver;
+let gameStarted = false;
+let gameOver = 
 
 //=========================================
 // Code

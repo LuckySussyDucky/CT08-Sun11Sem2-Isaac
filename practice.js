@@ -10,6 +10,7 @@ function setup() {
 
 function preload() {
     box = new Sprite(600, 300, 30, 30);
+    box
 
     floor = new Sprite(400, 600, 900, 50);
 }

@@ -38,4 +38,8 @@ function draw() {
     if (kb.holding("D") || kb.holding("right")) {
         box.x += 3;
     }
+
+    if (mouse.presses("left")) {
+        
+    }
 }

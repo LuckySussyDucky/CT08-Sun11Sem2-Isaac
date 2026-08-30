@@ -36,7 +36,7 @@ function draw() {
     if (kb.presses("space") || kb.presses("up")) {
         if (jumps === 1) {
             box.vel.y = -3;
-            jump -= 1
+            jump -= 1;
         }
     }
 
@@ -52,4 +52,6 @@ function draw() {
         blocks = new Sprite(mouse.x, mouse.y, 30, 30);
         blocks.collider = "static";
     }
+
+    if (box.collide(floor))
 }

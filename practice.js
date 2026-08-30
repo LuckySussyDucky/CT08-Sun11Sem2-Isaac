@@ -41,6 +41,7 @@ function draw() {
     }
 
     if (mouse.presses("left")) {
-
+        blocks = new Sprite(400, 300, 30, 30);
+        box.collider = "dynamic";
     }
 }

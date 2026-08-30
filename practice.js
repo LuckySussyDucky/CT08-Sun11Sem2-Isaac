@@ -25,11 +25,11 @@ function draw() {
         box.vel.y = -3;
     }
 
-    if (kb.holding("A") || kb.holding("arrowLeft")) {
+    if (kb.holding("A") || kb.holding("left")) {
         box.x -= 3;
     }
 
-    if (kb.holding("D") || kb.holding("arrowRight")) {
+    if (kb.holding("D") || kb.holding("right")) {
         box.x += 3;
     }
 }

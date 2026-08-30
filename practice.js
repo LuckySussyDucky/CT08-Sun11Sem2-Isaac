@@ -3,7 +3,7 @@ let box;
 let floor;
 let blocks;
 
-let jumps;
+let jumps = 1;
 let maxjumps = 1
 
 function setup() {

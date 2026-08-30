@@ -14,7 +14,7 @@ function preload() {
     box.collider = "dynamic";
 
     floor = new Sprite(400, 600, 900, 50);
-    box.collider = "static";
+    floor.collider = "static";
 }
 
 function draw() {

@@ -63,7 +63,7 @@ function setup() {
     balloon.color = "red";
     balloon.x = width / 2;
     balloon.y = 100;
-    balloon.bounciness = 2;
+    balloon.bounciness = 1.25;
     balloon.mass = 1;
     balloon.drag = 0.2;
 

@@ -22,6 +22,6 @@ function draw() {
     background(250);
     
     if (kb.presses("space") || mouse.presses()) {
-        box.vel.y = 10;
+        box.vel.y = -1;
     }
 }

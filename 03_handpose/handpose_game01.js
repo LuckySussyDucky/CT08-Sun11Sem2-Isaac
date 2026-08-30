@@ -86,6 +86,8 @@ function setup() {
 function draw() {
     image(video, 0, 0, videoW, videoH);
 
+    if (gameOver === false)
+
     if (hands.length > 0){
         let hand = hands[0];
         let keypoint = hand.keypoints[8];

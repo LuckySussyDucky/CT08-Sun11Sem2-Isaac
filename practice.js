@@ -1,6 +1,7 @@
 // VARIABLES
 let box;
 let floor;
+let blocks;
 
 function setup() {
     new Canvas(800, 600);

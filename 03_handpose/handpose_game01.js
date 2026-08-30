@@ -62,8 +62,8 @@ function setup() {
     balloon.x = width / 2;
     balloon.y = 100;
     balloon.bounciness = 0.75;
-    balloon.mass = 2;
-    balloon.drag = 0.01;
+    balloon.mass = 1;
+    balloon.drag = 0.1;
 }
 
 function draw() {

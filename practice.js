@@ -6,7 +6,7 @@ function setup() {
     new Canvas(800, 600);
     background(250);
     displayMode('centered');
-    world.gravity.y = 7
+    world.gravity.y = 7;
 
     box = new Sprite(400, 300, 30, 30);
     box.collider = "dynamic";

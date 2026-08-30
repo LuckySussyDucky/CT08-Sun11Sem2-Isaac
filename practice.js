@@ -35,9 +35,8 @@ function draw() {
     
     if (kb.presses("space") || kb.presses("up")) {
         if (jumps === 1) {
-            
+            box.vel.y = -3;
         }
-        box.vel.y = -3;
     }
 
     if (kb.holding("A") || kb.holding("left")) {

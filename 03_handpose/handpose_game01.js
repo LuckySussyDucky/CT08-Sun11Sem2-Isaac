@@ -92,11 +92,11 @@ function draw() {
             let hand = hands[0];
             let keypoint = hand.keypoints[8];
 
-        fingerTip.x = keypoint.x
-        fingerTip.y = keypoint.y
-        fingerTip.visible = true
+            fingerTip.x = keypoint.x
+            fingerTip.y = keypoint.y
+            fingerTip.visible = true
 
-        circle(keypoint.x, keypoint.y, 30);
+            circle(keypoint.x, keypoint.y, 30);
         }
         else{
             fingerTip.visible = false;

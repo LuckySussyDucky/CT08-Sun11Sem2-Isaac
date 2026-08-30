@@ -12,9 +12,6 @@ function setup() {
 
     floor = new Sprite(400, 600, 1000000, 50);
     floor.collider = "static";
-
-    text("X: ", box.x, 0, 0);
-    text("Y: ", box.y, 0, 0);
 }
 
 function preload() {
@@ -23,6 +20,9 @@ function preload() {
 
 function draw() {
     background(250);
+
+        text("X: ", box.x, 0, 0);
+    text("Y: ", box.y, 0, 0);
 
     if (box.x >= width / 2){
       camera.x = box.x;

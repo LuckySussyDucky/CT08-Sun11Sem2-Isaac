@@ -28,4 +28,8 @@ function draw() {
     if (kb.holding("A") || kb.holding("arrowLeft")) {
         box.x -= 3;
     }
+
+    if (kb.holding("D") || kb.holding("arrowLeft")) {
+        box.x -= 3;
+    }
 }

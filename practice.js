@@ -35,7 +35,7 @@ function draw() {
       camera.y = box.y;
       box.rotation = 0;
     } else{
-      camera.y = width / 2;
+      camera.y = height / 2;
       box.rotation = 0;
     }
     

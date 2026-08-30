@@ -74,6 +74,9 @@ function setup() {
 
     boundaryGroup = new Group();
     boundaryGroup.add(topWall);
+    boundaryGroup.add(bottomWall);
+    boundaryGroup.add(topWall);
+    boundaryGroup.add(topWall);
 }
 
 function draw() {

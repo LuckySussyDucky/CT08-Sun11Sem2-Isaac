@@ -21,9 +21,6 @@ function preload() {
 function draw() {
     background(250);
 
-        text("X: ", box.x, 0, 0);
-    text("Y: ", box.y, 0, 0);
-
     if (box.x >= width / 2){
       camera.x = box.x;
     } else{

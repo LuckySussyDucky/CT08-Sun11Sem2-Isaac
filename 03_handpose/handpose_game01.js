@@ -103,7 +103,10 @@ function draw() {
         }
     }
 
-    if (gameStarted === false)
+    if (gameStarted === false) {
+        textSize(28);
+        
+    }
 }
 
 //=========================================

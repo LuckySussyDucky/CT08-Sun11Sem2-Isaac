@@ -73,7 +73,7 @@ function setup() {
     rightWall = new Sprite(width, height / 2, 10, height, "static");
 
     boundaryGroup = new Group();
-    boundaryGroup.add(topWall)
+    boundaryGroup.add(topWall);
 }
 
 function draw() {

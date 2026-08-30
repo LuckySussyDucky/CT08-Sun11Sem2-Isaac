@@ -20,5 +20,5 @@ function preload() {
 }
 
 function draw() {
-    
+    camera
 }

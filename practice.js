@@ -14,7 +14,7 @@ function setup() {
     floor.collider = "static";
 
     text("X: ", box.x, 0, 0);
-    text("Y: ", box.y, 0, 30);
+    text("Y: ", box.y, 0, 0);
 }
 
 function preload() {

@@ -21,6 +21,8 @@ function preload() {
 function draw() {
     background(250);
 
+    floor.x = box.
+
     if (box.x >= width / 2){
       camera.x = box.x;
     } else{

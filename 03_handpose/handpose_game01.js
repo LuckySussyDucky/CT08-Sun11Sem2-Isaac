@@ -86,7 +86,7 @@ function setup() {
 function draw() {
     image(video, 0, 0, videoW, videoH);
 
-    if (gameOver === false)
+    if (gameOver === false) {
 
     if (hands.length > 0){
         let hand = hands[0];
@@ -100,6 +100,7 @@ function draw() {
     }
     else{
         fingerTip.visible = false;
+        }
     }
 }
 

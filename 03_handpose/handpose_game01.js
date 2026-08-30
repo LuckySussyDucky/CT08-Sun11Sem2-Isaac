@@ -108,6 +108,7 @@ function draw() {
         textAlign(CENTER, CENTER);
         fill("limegreen");
         textSize(20);
+        text("U")
     }
 }
 

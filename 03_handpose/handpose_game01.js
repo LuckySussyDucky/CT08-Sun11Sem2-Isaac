@@ -68,7 +68,8 @@ function setup() {
     balloon.drag = 0.1;
 
     topWall = new Sprite(width / 2, 0, width, 10, "static");
-    bottomWall = new Sprite(width / 2, hright, width, 10, "static");
+    bottomWall = new Sprite(width / 2, height, width, 10, "static");
+    
 }
 
 function draw() {

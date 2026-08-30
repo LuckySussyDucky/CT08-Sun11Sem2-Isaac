@@ -3,6 +3,8 @@ let box;
 let floor;
 let blocks;
 
+let
+
 function setup() {
     new Canvas(800, 600);
     displayMode('centered');

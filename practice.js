@@ -1,5 +1,6 @@
 // VARIABLES
 let box;
+let floor
 
 function setup() {
   new Canvas(800, 600);
@@ -12,5 +13,5 @@ function preload() {
 }
 
 function draw() {
-    box = new Sprite(600, 300, 30, 30);
+    
 }

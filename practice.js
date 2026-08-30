@@ -3,7 +3,7 @@ let box;
 let floor;
 let blocks;
 
-let
+let jumps;
 
 function setup() {
     new Canvas(800, 600);

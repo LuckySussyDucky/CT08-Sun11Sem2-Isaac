@@ -20,6 +20,8 @@ function preload() {
 
 function draw() {
     background(250);
+
+    CanvasCaptureMediaStreamTrack.x = box.x
     
     if (kb.presses("space") || mouse.presses()) {
         box.vel.y = -1;

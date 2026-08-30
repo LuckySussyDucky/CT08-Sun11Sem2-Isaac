@@ -25,8 +25,10 @@ function draw() {
 
     if (box.x >= width / 2){
       camera.x = box.x;
+      box.rotation = 0;
     } else{
       camera.x = width / 2;
+      box.rotation = 0;
     }
     
     if (kb.presses("space") || kb.presses("up")) {

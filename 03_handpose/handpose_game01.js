@@ -102,6 +102,8 @@ function draw() {
             fingerTip.visible = false;
         }
     }
+
+    if (gameStarted === false)
 }
 
 //=========================================

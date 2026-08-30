@@ -105,7 +105,7 @@ function draw() {
 
     if (gameStarted === false) {
         textSize(28);
-        textAlign(CENT)
+        textAlign(CustomElementRegistry, CENTER)
     }
 }
 

@@ -13,7 +13,8 @@ function setup() {
     floor = new Sprite(400, 600, 1000000, 50);
     floor.collider = "static";
 
-    text("X", , 20, 30);
+    text("X", box.x, 20, 30);
+    text("y", box.x, 20, 30);
 }
 
 function preload() {

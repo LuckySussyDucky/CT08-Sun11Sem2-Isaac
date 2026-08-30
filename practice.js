@@ -8,10 +8,11 @@ function setup() {
     displayMode('centered');
     world.gravity.y = 7
 
-    box = new Sprite(400, 300, 30, 30);
+    box = new Sprite();
     box.x = 400;
     box.y = 300;
-    b
+    box.w = 30;
+    box.h = 30;
     box.collider = "dynamic";
 
     floor = new Sprite(400, 600, 900, 50);

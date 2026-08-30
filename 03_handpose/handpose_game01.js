@@ -77,7 +77,7 @@ function setup() {
     boundaryGroup.add(bottomWall);
     boundaryGroup.add(leftWall);
     boundaryGroup.add(rightWall);
-    boundaryGroup
+    boundaryGroup.visible = false;
 }
 
 function draw() {

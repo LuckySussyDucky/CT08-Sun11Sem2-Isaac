@@ -12,5 +12,5 @@ function preload() {
 }
 
 function draw() {
-    box = new Sprite()
+    box = new Sprite(0, 0, 30, 30)
 }

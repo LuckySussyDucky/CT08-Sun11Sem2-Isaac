@@ -7,14 +7,16 @@ function setup() {
     background(250);
     displayMode('centered');
     world.gravity.y = 7;
-}
 
-function preload() {
     box = new Sprite(400, 300, 30, 30);
     box.collider = "dynamic";
 
     floor = new Sprite(400, 600, 900, 50);
     floor.collider = "static";
+}
+
+function preload() {
+
 }
 
 function draw() {

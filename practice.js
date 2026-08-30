@@ -9,6 +9,7 @@ function setup() {
     world.gravity.y = 7
 
     box = new Sprite(600, 300, 30, 30);
+    box.w
     box.collider = "dynamic";
 
     floor = new Sprite(400, 600, 900, 50);

@@ -3,9 +3,6 @@ let box;
 let floor;
 let blocks;
 
-let jumps = 1;
-let maxjumps = 1
-
 function setup() {
     new Canvas(800, 600);
     displayMode('centered');
@@ -35,10 +32,7 @@ function draw() {
     }
     
     if (kb.presses("space") || kb.presses("up")) {
-        if (jumps >= 1) {
-            box.vel.y = -3;
-            jump -= 1;
-        }
+        box.vel.y = -3;
     }
 
     if (kb.holding("A") || kb.holding("left")) {
@@ -52,9 +46,5 @@ function draw() {
     if (mouse.presses("left")) {
         blocks = new Sprite(mouse.x, mouse.y, 30, 30);
         blocks.collider = "static";
-    }
-
-    if (box.collide(floor)) {
-        jump = maxjumps;
     }
 }

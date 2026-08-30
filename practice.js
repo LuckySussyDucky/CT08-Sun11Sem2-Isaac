@@ -20,6 +20,12 @@ function preload() {
 
 function draw() {
     background(250);
+
+    if (box.x >= width / 2){
+      camera.x = box.x;
+    } else{
+      camera.x = width / 2;
+    }
     
     if (kb.presses("space") || kb.presses("up")) {
         box.vel.y = -3;

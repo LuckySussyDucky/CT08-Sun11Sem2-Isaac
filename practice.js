@@ -24,6 +24,6 @@ function draw() {
     camera.x = box.x
     
     if (kb.presses("space") || mouse.presses()) {
-        box.vel.y = -7;
+        box.vel.y = -3;
     }
 }

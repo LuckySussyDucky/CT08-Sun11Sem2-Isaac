@@ -3,3 +3,7 @@ function setup() {
   background(250);
   displayMode('centered');
 }
+
+function preload() {
+    
+}

@@ -31,11 +31,11 @@ function draw() {
       box.rotation = 0;
     }
 
-    if (box.y >= width / 2){
-      camera.x = box.x;
+    if (box.y >= height / 2){
+      camera.y = box.y;
       box.rotation = 0;
     } else{
-      camera.x = width / 2;
+      camera.y = width / 2;
       box.rotation = 0;
     }
     

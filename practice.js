@@ -1,3 +1,4 @@
+// VARIABLES
 
 
 function setup() {

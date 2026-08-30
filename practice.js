@@ -4,6 +4,7 @@ let floor;
 let blocks;
 
 let jumps;
+let maxjumps = 1
 
 function setup() {
     new Canvas(800, 600);
@@ -53,5 +54,7 @@ function draw() {
         blocks.collider = "static";
     }
 
-    if (box.collide(floor))
+    if (box.collide(floor)) {
+        jump = maxjumps;
+    }
 }

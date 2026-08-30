@@ -10,7 +10,7 @@ function setup() {
     box = new Sprite(400, 300, 30, 30);
     box.collider = "dynamic";
 
-    floor = new Sprite(400, 600, 100000, 50);
+    floor = new Sprite(400, 600, 1000000, 50);
     floor.collider = "static";
 }
 

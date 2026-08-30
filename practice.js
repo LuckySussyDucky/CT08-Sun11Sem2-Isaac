@@ -1,5 +1,5 @@
 // VARIABLES
-lbox;
+let box;
 
 function setup() {
   new Canvas(800, 600);
@@ -12,5 +12,5 @@ function preload() {
 }
 
 function draw() {
-    new Sprite
+    box = new Sprite()
 }

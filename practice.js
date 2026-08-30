@@ -25,7 +25,7 @@ function draw() {
         box.vel.y = -3;
     }
 
-    if (kb.presses("A")) {
+    if (kb.holding("A")) {
         box.x -= 3;
     }
 }

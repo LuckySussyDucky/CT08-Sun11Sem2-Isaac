@@ -28,6 +28,6 @@ function draw() {
     }
 
     if (kb.presses("A")) {
-        box.x -
+        box.x -= 3;
     }
 }

@@ -25,7 +25,7 @@ function draw() {
         box.vel.y = -3;
     }
 
-    if (kb.holding("A") || kb.holding("")) {
+    if (kb.holding("A") || kb.holding("arrowLeft")) {
         box.x -= 3;
     }
 }

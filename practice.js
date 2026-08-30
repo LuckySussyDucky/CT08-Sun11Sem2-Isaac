@@ -34,6 +34,7 @@ function draw() {
     }
     
     if (kb.presses("space") || kb.presses("up")) {
+        if ()
         box.vel.y = -3;
     }
 

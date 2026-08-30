@@ -11,7 +11,7 @@ function setup() {
 function preload() {
     box = new Sprite(600, 300, 30, 30);
 
-    box = new Sprite(600, 300, 30, 30);
+    floor = new Sprite(600, 300, 900, 30);
 }
 
 function draw() {

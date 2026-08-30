@@ -10,7 +10,7 @@ let hands = [];
 let fingerTip;
 let balloon;
 
-let rightWall
+let rightWall, leftWall,
 
 //=========================================
 // Code

@@ -136,7 +136,7 @@ function drawMiddleLine() {
     line(width / 2, 0, width / 2, cameraHeight);
 }
 
-function gotPoses(video, results) {
+function gotPoses(results) {
     detectedPeople = results;
 }
 

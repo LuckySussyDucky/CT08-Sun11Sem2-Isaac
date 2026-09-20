@@ -65,6 +65,8 @@ function setup() {
 
     video = createCapture(constraints);
     video.hide();
+
+    bodyPose.detectStart
 }
 
 

@@ -56,7 +56,7 @@ function setup() {
             aspectRatio: cameraWidth / cameraHeight
         },
         audio: false,
-        flipped: true
+        flipped: true // Flip the webcam feed horizontally for a mirror effect.
     };
 }
 

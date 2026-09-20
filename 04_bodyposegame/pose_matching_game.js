@@ -78,6 +78,8 @@ function setup() {
 function draw() {
     // Clear the canvas with a dark background.
     background(30);
+    // Display the webcam video feed.
+    image(video, cameraX, 0, cameraWidth, cameraHeight);
     // Draw the side panels.
     drawUIPanel();
     // Draw the middle line that separates Player 1 and Player 2 areas.
@@ -94,18 +96,14 @@ function draw() {
 function drawUIPanel() {
     // Remove outlines.
     noStroke();
-
     // Set panel colour.
     fill(20);
-
     // Draw left panel.
     rect(leftPanelX, 0, sidePanelWidth, cameraHeight);
-
     // Draw right panel.
     rect(rightPanelX, 0, sidePanelWidth, cameraHeight);
-
     // Set divider line colour.
-    stroke(255, 180);
+    stoke(255, 180);
 
     // Set divider line thickness.
     strokeWeight(2);

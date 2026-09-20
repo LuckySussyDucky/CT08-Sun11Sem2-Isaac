@@ -103,14 +103,11 @@ function drawUIPanel() {
     // Draw right panel.
     rect(rightPanelX, 0, sidePanelWidth, cameraHeight);
     // Set divider line colour.
-    stoke(255, 180);
-
+    stroke(255, 180);
     // Set divider line thickness.
     strokeWeight(2);
-
     // Draw line between left panel and webcam.
     line(sidePanelWidth, 0, sidePanelWidth, cameraHeight);
-
     // Draw line between webcam and right panel.
     line(rightPanelX, 0, rightPanelX, cameraHeight);
 }
@@ -124,10 +121,8 @@ function drawUIPanel() {
 function drawMiddleLine() {
     // Set line colour to white with transparency.
     stroke(255, 180);
-
     // Set line thickness.
     strokeWeight(2);
-
     // Draw the middle line inside the webcam area.
     line(width / 2, 0, width / 2, cameraHeight);
 }
@@ -139,7 +134,6 @@ function gotPoses(error, results) {
 function drawDetectionStatus() {
     // Set text colour to white.
     fill(0);
-
     textSize(16);
     text("Detected People: " + detectedPeople.length, width / 2, 55);
 

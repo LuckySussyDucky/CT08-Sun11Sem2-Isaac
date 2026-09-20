@@ -90,7 +90,9 @@ function draw() {
     if (detectedPeople.length > 0) {
         let pose = detectedPeople[0];
 
-        let x = pose.nose.x
+        let x = pose.nose.x + camera.x;
+        let y = pose.nose.y;
+        
     }
 }
 

@@ -27,6 +27,8 @@ let rightPanelX = sidePanelWidth + cameraWidth;
 // Variables
 // ====================================================
 
+let video; // Variable to hold the webcam video feed.
+
 // ====================================================
 // Preload
 // ====================================================

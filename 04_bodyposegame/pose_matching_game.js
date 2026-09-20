@@ -85,11 +85,9 @@ function draw() {
     // Draw the middle line that separates Player 1 and Player 2 areas.
     drawMiddleLine();
     // Draw detection status.
-    
+    drawDetectionStatus();
 
     if (detectedPeople.length > 0) {
-
-        drawDetectionStatus();
         let pose = detectedPeople[0];
 
         let x = pose.nose.x + camera.x;

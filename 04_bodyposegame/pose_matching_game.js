@@ -58,6 +58,9 @@ function setup() {
         audio: false,
         flipped: true // Flip the webcam feed horizontally for a mirror effect.
     };
+
+    video = createCapture(constraints);
+    video
 }
 
 

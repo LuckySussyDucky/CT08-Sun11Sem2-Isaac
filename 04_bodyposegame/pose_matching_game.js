@@ -34,6 +34,7 @@ let video; // Variable to hold the webcam video feed.
 // ====================================================
 
 function preload(){
+    bodyPose = 
     
 }
 

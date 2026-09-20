@@ -88,11 +88,7 @@ function draw() {
     drawDetectionStatus();
 
     if (detectedPeople.length > 0) {
-        // Draw the detected poses for each person.
-        for (let i = 0; i < detectedPeople.length; i++) {
-            let person = detectedPeople[i];
-            drawPose(person);
-        }
+        let pose = detectedPeople[0];
     }
 }
 

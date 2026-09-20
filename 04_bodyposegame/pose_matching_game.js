@@ -34,7 +34,7 @@ let video; // Variable to hold the webcam video feed.
 // ====================================================
 
 function preload(){
-    bodyPose = 
+    bodyPose = ml5.bodypose(video, modelReady);
     
 }
 

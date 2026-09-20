@@ -60,7 +60,7 @@ function setup() {
     };
 
     video = createCapture(constraints);
-    video
+    video.hide();
 }
 
 

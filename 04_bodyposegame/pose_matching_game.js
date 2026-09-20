@@ -46,6 +46,8 @@ function setup() {
 
     // Set up text.
     textAlign(CENTER, CENTER);
+
+    let canvas = createCanvas(totalCanvasWidth, cameraHeight);
 }
 
 

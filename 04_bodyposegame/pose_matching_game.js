@@ -138,4 +138,4 @@ function drawMiddleLine() {
 
 function gotPoses(error, results) {
     detectedPeople = results;
-
+}

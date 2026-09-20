@@ -34,8 +34,7 @@ let video; // Variable to hold the webcam video feed.
 // ====================================================
 
 function preload(){
-    bodyPose = ml5.bodyPose("MoveNet", { flipped: true }, modelReady);
-    
+    bodyPose = ml5.bodyPose("MoveNet", { flipped: true } );
 }
 
 // ====================================================

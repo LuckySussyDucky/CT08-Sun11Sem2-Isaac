@@ -29,7 +29,10 @@ let rightPanelX = sidePanelWidth + cameraWidth;
 
 let video; // Variable to hold the webcam video feed.
 
-ley
+let bodyPose; // Variable to hold the body pose model.
+
+let detectedPeople = []; // Array to hold detected people and their poses.
+
 // ====================================================
 // Preload
 // ====================================================

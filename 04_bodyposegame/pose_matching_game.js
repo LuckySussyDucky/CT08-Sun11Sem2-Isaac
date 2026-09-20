@@ -147,4 +147,5 @@ function drawDetectionStatus() {
     textSize(16);
     text("Detected People: " + detectedPeople.length, width / 2, 55);
 
-    cons
+    console.log("Detected People: " + detectedPeople.length);
+}

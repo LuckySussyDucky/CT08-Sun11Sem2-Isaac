@@ -29,6 +29,7 @@ let rightPanelX = sidePanelWidth + cameraWidth;
 
 let video; // Variable to hold the webcam video feed.
 
+ley
 // ====================================================
 // Preload
 // ====================================================
@@ -90,7 +91,7 @@ function draw() {
 function drawUIPanel() {
     // Remove outlines.
     noStroke();
-                                                                                                                
+
     // Set panel colour.
     fill(20);
 

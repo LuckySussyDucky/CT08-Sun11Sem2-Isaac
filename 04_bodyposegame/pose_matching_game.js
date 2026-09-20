@@ -78,14 +78,14 @@ function setup() {
 function draw() {
     // Clear the canvas with a dark background.
     background(30);
-    // Display the webcam video feed.
-    image(video, cameraX, 0, cameraWidth, cameraHeight);
     // Draw the side panels.
     drawUIPanel();
     // Draw the middle line that separates Player 1 and Player 2 areas.
     drawMiddleLine();
     // Draw detection status.
     drawDetectionStatus();
+    // Display the webcam video feed.
+    image(video, cameraX, 0, cameraWidth, cameraHeight);
 }
 
 // ====================================================

@@ -86,6 +86,8 @@ function draw() {
     // Display the webcam video feed.
     image(video, cameraX, 0, cameraWidth, cameraHeight);
 
+    // Draw detection status.
+    drawDetectionStatus();
 }
 
 // ====================================================

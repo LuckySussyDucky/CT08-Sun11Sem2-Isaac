@@ -53,8 +53,10 @@ function setup() {
         video: {
             width: cameraWidth,
             height: cameraHeight,
-            aspectRatio: 
-        }
+            aspectRatio: cameraWidth / cameraHeight
+        },
+        audio: false,
+        flipped: true
     };
 }
 

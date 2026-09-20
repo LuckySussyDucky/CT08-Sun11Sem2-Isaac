@@ -48,6 +48,13 @@ function setup() {
     textAlign(CENTER, CENTER);
 
     let canvas = createCanvas(totalCanvasWidth, cameraHeight);
+
+    let constraints = {
+        video: {
+            width: cameraWidth,
+            height: cameraHeight
+        }
+    };
 }
 
 

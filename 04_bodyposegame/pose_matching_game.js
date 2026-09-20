@@ -90,7 +90,7 @@ function draw() {
 function drawUIPanel() {
     // Remove outlines.
     noStroke();
-
+                                                                                                                
     // Set panel colour.
     fill(20);
 

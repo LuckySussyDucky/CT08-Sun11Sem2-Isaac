@@ -139,3 +139,12 @@ function drawMiddleLine() {
 function gotPoses(error, results) {
     detectedPeople = results;
 }
+
+function drawDetectionStatus() {
+    // Set text colour to white.
+    fill(0);
+
+    textSize(16);
+    text("Detected People: " + detectedPeople.length, width / 2, 55);
+
+    cons

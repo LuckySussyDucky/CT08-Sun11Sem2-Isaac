@@ -323,7 +323,7 @@ function drawPlayerStatus() {
     }
 }
 
-function setupPostList() {
+function setupPoseList() {
     poseList = [
         {
             name: "Both Hands Up",

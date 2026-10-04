@@ -242,7 +242,7 @@ function findPlayers() {
     let player1CenterX = cameraX + cameraWidth / 4;
     let player2CenterX = cameraX + cameraWidth * 3 / 4;
 
-    let cameraMiddleX = camera + cameraWidth / 2;
+    let cameraMiddleX = cameraX + cameraWidth / 2;
 
     for (let i = 0; i < detectedPeople.length; i++) {
         let person = detectedPeople[i];

@@ -375,5 +375,5 @@ function drawSharedGameUI() {
     textSize(28);
     text(currentPose.name, width / 2, 65);
 
-    draw
+    drawTargetPose(currentPose.image)
 }

@@ -368,5 +368,5 @@ function drawSharedGameUI() {
     rect(cameraX + 190, 8 , 420, 90, 12);
 
     fill(255);
-    
+    textSize(24);
 }

@@ -291,6 +291,8 @@ function drawPlayerStatus() {
     fill(255);
 
     if (player1Person !== null) {
-        text("Detected", leftPanelCenterX)
+        text("Detected", leftPanelCenterX, 125);
+    } else {
+        text
     }
 }

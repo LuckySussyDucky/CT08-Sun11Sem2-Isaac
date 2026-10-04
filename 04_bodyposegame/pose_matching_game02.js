@@ -122,6 +122,8 @@ function draw() {
     // drawDetectionStatus();
 
     drawPlayerStatus();
+
+    drawSharedGameUI();
 }
 
 // ====================================================
@@ -317,6 +319,40 @@ function drawPlayerStatus() {
     if (player2Person !== null) {
         text("Detected", rightPanelCenterX, 125);
     } else {
-        text("Not Detected", rightPanelCenterX                      , 125);
+        text("Not Detected", rightPanelCenterX, 125);
     }
+}
+
+function setupPostList() {
+    poseList = [
+        {
+            name: "Both Hands Up",
+            id: "bothHandsUp",
+            image: bothHandsUpImg
+        },
+
+        {
+            name: "Left Hand Up",
+            id: "leftHandUp",
+            image: leftHandUpImg
+        },
+
+        {
+            name: "Right Hand Up",
+            id: "rightHandUp",
+            image: rightHandUpImg
+        },
+
+        {
+            name: "T Pose",
+            id: "tPose",
+            image: tPoseImg
+        },
+
+        {
+            name: "Hands On Head",
+            id: "handsOnHead",
+            image: bothHandsOnHeadImg
+        }
+    ]
 }

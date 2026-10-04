@@ -37,7 +37,8 @@ let poseList = [];
 let currentPose = null;
 
 let bothHandsUpImg;
-letleftHandUp
+let leftHandUpImg;
+let rightHandUpImh
 
 let player1Color;
 let player2Color;

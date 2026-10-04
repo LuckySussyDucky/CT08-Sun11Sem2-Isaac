@@ -94,6 +94,8 @@ function setup() {
 
     player1Color = color(80, 180, 255);
     player2Color = color(255, 120, 120);
+
+    setupPoseList();
 }
 
 

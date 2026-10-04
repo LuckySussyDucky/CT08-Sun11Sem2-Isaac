@@ -361,4 +361,8 @@ function drawSharedGameUI() {
     if (currentPose === null || currentPose === undefined) {
         return;
     }
+
+    noStroke();
+
+    f
 }

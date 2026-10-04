@@ -40,7 +40,7 @@ let bothHandsUpImg;
 let leftHandUpImg;
 let rightHandUpImg;
 let tPoseImg;
-let both
+let bothHandsOnHeadImg;
 
 let player1Color;
 let player2Color;

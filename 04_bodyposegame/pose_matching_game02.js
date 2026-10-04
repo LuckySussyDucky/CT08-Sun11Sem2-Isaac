@@ -99,6 +99,8 @@ function draw() {
     drawMiddleLine();
     // Draw detection status.
     drawDetectionStatus();
+
+    drawPlayerStatus
 }
 
 // ====================================================

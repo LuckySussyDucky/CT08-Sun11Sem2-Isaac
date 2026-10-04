@@ -39,6 +39,8 @@ let player2Color;
 let player1Person = null;
 let player2Person = null;
 
+let leftpanelCenterX
+
 // ====================================================
 // Preload
 // ====================================================

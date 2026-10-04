@@ -385,5 +385,5 @@ function drawSharedGameUI() {
 function drawTargetPose(poseImage, x, y, size) {
     ImageBitmapRenderingContext(CENTER);
 
-    
+    image(poseImage, x, y, )
 }

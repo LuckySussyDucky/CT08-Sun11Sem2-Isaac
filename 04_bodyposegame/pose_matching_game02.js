@@ -364,5 +364,5 @@ function drawSharedGameUI() {
 
     noStroke();
 
-    f
+    fill(0,135)
 }

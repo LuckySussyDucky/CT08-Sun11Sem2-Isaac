@@ -58,8 +58,9 @@ let rightPanelCenterX = rightPanelX + sidePanelWidth / 2
 function preload(){
     bodyPose = ml5.bodyPose("MoveNet", { flipped: true });
 
-    bothHandsUpImg = loadImage("assets/poseBattle_bothHandsUp.png")
-    leftHandUpImg = loadImage("assets/poseBattle_leftHandUp.png")
+    bothHandsUpImg = loadImage("assets/poseBattle_bothHandsUp.png");
+    leftHandUpImg = loadImage("assets/poseBattle_leftHandUp.png");
+    leftHandUpImg = loadImage("assets/poseBattle_leftHandUp.png");
 }
 
 // ====================================================

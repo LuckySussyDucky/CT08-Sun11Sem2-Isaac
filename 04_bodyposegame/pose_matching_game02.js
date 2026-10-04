@@ -373,5 +373,5 @@ function drawSharedGameUI() {
 
     fill(255, 280, 80);
     textSize(28);
-    text(cu)
+    text(currentPose.name, witdh / 2, 65)
 }

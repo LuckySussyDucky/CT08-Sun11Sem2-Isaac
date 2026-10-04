@@ -100,7 +100,7 @@ function draw() {
     // Draw detection status.
     drawDetectionStatus();
 
-    drawPlayerStatus
+    drawPlayerStatus();
 }
 
 // ====================================================

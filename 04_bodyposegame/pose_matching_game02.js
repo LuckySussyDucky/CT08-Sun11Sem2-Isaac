@@ -364,5 +364,6 @@ function drawSharedGameUI() {
 
     noStroke();
 
-    fill(0,135)
+    fill(0,135);
+    rect(cameraX + 190)
 }

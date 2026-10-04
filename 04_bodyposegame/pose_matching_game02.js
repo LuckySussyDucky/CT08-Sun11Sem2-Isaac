@@ -39,8 +39,8 @@ let currentPose = null;
 let bothHandsUpImg;
 let leftHandUpImg;
 let rightHandUpImg;
-let tPoseImg;
 let bothHandsOnHeadImg;
+let tPoseImg;
 
 let player1Color;
 let player2Color;

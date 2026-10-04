@@ -286,5 +286,7 @@ function drawPlayersSkeletons() {
 }
 
 function drawPlayerStatus() {
-    noStroke
+    noStroke();
+    textSize();
+    
 }

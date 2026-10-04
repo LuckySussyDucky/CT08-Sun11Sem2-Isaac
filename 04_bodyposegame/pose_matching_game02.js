@@ -358,5 +358,7 @@ function setupPostList() {
 }
 
 function drawSharedGameUI() {
-    
+    if (currentPose === null || currentPose === undefined) {
+        
+    }
 }

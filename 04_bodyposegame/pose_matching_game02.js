@@ -356,3 +356,7 @@ function setupPostList() {
         }
     ]
 }
+
+function drawSharedGameUI() {
+    
+}

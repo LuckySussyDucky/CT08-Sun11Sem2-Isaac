@@ -291,6 +291,6 @@ function drawPlayerStatus() {
     fill(255);
 
     if (player1Person !== null) {
-        text
+        text("Detected", )
     }
 }

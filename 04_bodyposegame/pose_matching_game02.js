@@ -284,3 +284,5 @@ function drawPlayersSkeletons() {
         drawSkeleton(player2Person, player2Color);
     }
 }
+
+function drawPlayerStatus()

@@ -32,7 +32,7 @@ let video; // Variable to hold the webcam video feed.
 let bodyPose; // Variable to hold the body pose model.
 
 let detectedPeople = []; // Array to hold detected people.
-let pose
+let poseList = [];
 
 let player1Color;
 let player2Color;

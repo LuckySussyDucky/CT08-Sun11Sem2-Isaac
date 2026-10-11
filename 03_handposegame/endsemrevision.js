@@ -3,7 +3,6 @@ let hands = [];
 let video;
 
 let gameStarted = false;
-let gameEnded = false;
 let gameOver = false;
 
 let fingerTip;

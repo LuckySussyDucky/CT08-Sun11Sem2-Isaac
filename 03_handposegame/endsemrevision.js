@@ -81,19 +81,7 @@ function gotHands(results){
 function draw () {
     background("black")  
 
-    let keypoint = hands.keypoints[8]; // Get the index finger tip keypoint
-    circle(keypoint.x, keypoint.y, 10); // Draw a circle at the index finger tip position
-
     image(video, 0, 0, width, height);
-
-    // for (let i = 0; i < hands.length; i++) {
-    //     let hand = hands[i];
-
-    //     for (let j = 0; j < hand.keypoints.length; j++) {
-    //         let keypoint = hand.keypoints[j];
-    //         circle(keypoint.x, keypoint.y, 10);
-    //     }
-    // }
 
     if ((mouse.presses("left") && !gameStarted) || (kb.presses("space") && !gameStarted)) {
         gameOver = false;

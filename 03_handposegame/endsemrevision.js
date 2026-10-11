@@ -108,7 +108,8 @@ function draw () {
         fill("white");
         text("Use Index Finger to bounce the ball.", 10, 10);
 
-        t
+        textSize(12);
+        
     }
 
     if (gameStarted === false) {

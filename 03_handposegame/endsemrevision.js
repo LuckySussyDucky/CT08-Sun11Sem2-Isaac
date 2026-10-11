@@ -2,6 +2,8 @@ let handPose;
 let hands = [];
 let video;
 
+let 
+
 let fingerTip;
 let balloon;
 

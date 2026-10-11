@@ -77,8 +77,6 @@ function draw () {
         gameStarted = true;
         console.log("Game Started");
     }
-
-
     
 }
 

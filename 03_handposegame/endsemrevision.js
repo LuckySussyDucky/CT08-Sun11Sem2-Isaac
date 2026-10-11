@@ -147,6 +147,11 @@ function draw () {
             fingerTip.x = keypoint.x
             fingerTip.y = keypoint.y
             fingerTip.visible = true
+
+            for (let i = 0; i < hand.keypoints.length; i++) {
+                let keypoint = hand.keypoints[i];
+                circle(keypoint.x, keypoint.y, 5);
+            }
         }
         else{
             fingerTip.visible = false;

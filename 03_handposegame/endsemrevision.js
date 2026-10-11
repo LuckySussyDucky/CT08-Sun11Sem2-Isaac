@@ -83,6 +83,10 @@ function draw () {
         
     }
 
+    if (gameEnded) {
+
+    
+
     if (gameOver) {
         textSize(32);
         fill("white");

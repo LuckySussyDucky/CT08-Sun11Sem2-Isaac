@@ -75,9 +75,10 @@ function draw () {
 
     if (mouse.pressed(space) && !gameStarted) {
         gameStarted = true;
+        console.log("Game Started");
     }
 
-    
+
     
 }
 

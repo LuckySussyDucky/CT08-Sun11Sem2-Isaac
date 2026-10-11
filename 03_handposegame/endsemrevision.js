@@ -93,7 +93,11 @@ function draw () {
         console.log("Game Started");
     }
 
-    
+    if (balloon.collides(bottomWall)) {
+        gameOver = true;
+        console.log("Game Over");
+    }
+
     if (gameStarted) {
         fingerTip.visible = true;
         balloon.visible = true;

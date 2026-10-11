@@ -100,6 +100,8 @@ function draw () {
         balloon.collider = "none";
     }
 
+    if (balloon)
+
     if (gameStarted) {
         fingerTip.visible = true;
         balloon.visible = true;

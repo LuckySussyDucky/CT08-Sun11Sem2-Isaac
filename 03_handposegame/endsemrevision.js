@@ -57,7 +57,7 @@ function setup () {
     balloon.color = "red";
     balloon.x = width / 2;
     balloon.y = 100;
-    
+    balloon.visible = false;
 
 }
 

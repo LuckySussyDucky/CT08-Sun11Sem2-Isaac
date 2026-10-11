@@ -102,6 +102,9 @@ function draw () {
         fingerTip.visible = true;
         balloon.visible = true;
         balloon.collider = "dynamic";
+
+        textSize(12);
+        
     }
 
     if (gameStarted === false) {

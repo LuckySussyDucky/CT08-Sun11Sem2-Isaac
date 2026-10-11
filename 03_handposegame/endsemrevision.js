@@ -83,7 +83,7 @@ function draw () {
         
     }
 
-    if (gameEnded) {
+    if (gameStarted === false) {
 
     }
 

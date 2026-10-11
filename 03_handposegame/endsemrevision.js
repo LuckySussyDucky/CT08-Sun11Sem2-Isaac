@@ -81,7 +81,7 @@ function gotHands(results){
 function draw () {
     background("black")  
 
-    let keypoint
+    let keypoint = hands[0]?.keypoints[8]; // Get the index finger tip keypoint
 
     image(video, 0, 0, width, height);
 

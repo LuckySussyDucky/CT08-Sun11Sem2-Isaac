@@ -109,7 +109,9 @@ function draw () {
         text("Use Index Finger to bounce the ball.", 10, 10);
 
         textSize(12);
-        
+        textAlign(RIGHT, TOP);
+        fill("white");
+        text("Press SPACE to restart the game.", width - 10, 10);
     }
 
     if (gameStarted === false) {

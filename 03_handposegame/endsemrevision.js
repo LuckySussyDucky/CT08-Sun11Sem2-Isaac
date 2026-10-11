@@ -111,7 +111,7 @@ function draw () {
         textSize(12);
         textAlign(RIGHT, TOP);
         fill("white");
-        text("Score: ", width - 10, 10);
+        text("Score: " + score, width - 10, 10);
     }
 
     if (gameStarted === false) {

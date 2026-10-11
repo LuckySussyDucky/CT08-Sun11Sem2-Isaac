@@ -88,7 +88,7 @@ function draw () {
 
     image(video, 0, 0, width, height);
 
-    if (mouse.presses("left") || kb.presses("space")&& !gameStarted) {
+    if (mouse.presses("left") || kb.presses("space") && !gameStarted) {
         gameStarted = true;
         console.log("Game Started");
     }

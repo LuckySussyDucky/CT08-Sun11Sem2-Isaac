@@ -82,7 +82,7 @@ function draw () {
     background("black")  
 
     for (let i = 0; i < hands.length; i++) {
-        let hand = hands[i]; 
+        let hand = hands[i];
     }
 
     image(video, 0, 0, width, height);

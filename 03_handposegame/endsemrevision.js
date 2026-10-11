@@ -96,6 +96,9 @@ function draw () {
     if (balloon.collides(bottomWall)) {
         gameOver = true;
         console.log("Game Over");
+        balloon.vel.x = 0;
+        balloon.vel.y = 0;
+        balloon.collider = "none";
     }
 
     if (gameStarted) {

@@ -149,7 +149,9 @@ function draw () {
 
             for (let i = 0; i < hand.keypoints.length; i++) {
                 let keypoint = hand.keypoints[i];
-                circle(keypoint.x, keypoint.y, 5);
+                if (i !== 8) {
+                    circle(keypoint.x, keypoint.y, 5);
+                }
             }
         }
         else{

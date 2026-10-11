@@ -42,7 +42,15 @@ function setup () {
 
     fingerTip = new Sprite();
     fingerTip.diameter = 20;
-    
+    fingerTip.collider = "kinematic";
+    fingerTip.color = "rgba(0, 255, 0, 0.05)";
+
+    balloon = new Sprite();
+    balloon.diameter = 60;
+    balloon.collider = "none";
+    balloon.color = "red";
+    balloon.x = width / 2;
+    balloon.y = 100;
 
 }
 

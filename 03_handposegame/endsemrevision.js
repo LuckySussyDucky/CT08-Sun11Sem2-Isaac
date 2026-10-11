@@ -111,7 +111,7 @@ function draw () {
         textSize(12);
         textAlign(RIGHT, TOP);
         fill("white");
-        text("Press SPACE to restart the game.", width - 10, 10);
+        text("Score: ", width - 10, 10);
     }
 
     if (gameStarted === false) {

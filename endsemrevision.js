@@ -2,6 +2,9 @@ let handPose;
 let hands = [];
 let video;
 
+let fingerTip;
+
+
 function preload(){
 
     let options = {

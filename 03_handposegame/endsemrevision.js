@@ -22,7 +22,7 @@ function preload(){
 }
 
 function setup () {
-
+    world.gravity.y = 6
     new Canvas(640, 480);
 
     let constraints = {

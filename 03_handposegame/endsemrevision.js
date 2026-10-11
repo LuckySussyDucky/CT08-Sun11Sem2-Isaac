@@ -108,8 +108,8 @@ function draw () {
         fingerTip.visible = true;
         balloon.visible = true;
         balloon.collider = "dynamic";
-        fingerTip.bounciness = 0.9;
-        balloon.bounciness = 0.9;
+        fingerTip.bounciness = 1;
+        balloon.bounciness = 1;
 
         textSize(12);
         textAlign(LEFT, TOP);

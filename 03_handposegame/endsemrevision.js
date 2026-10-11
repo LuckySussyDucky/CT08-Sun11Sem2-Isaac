@@ -101,6 +101,7 @@ function draw () {
     if (gameStarted) {
         fingerTip.visible = true;
         balloon.visible = true;
+        balloon.collider = "dynamic";
     }
 
     if (gameStarted === false) {

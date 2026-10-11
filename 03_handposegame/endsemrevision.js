@@ -8,6 +8,7 @@ let gameOver = false;
 
 let fingerTip;
 let balloon;
+let rightWall, leftWall, bottomWall, topWall, boundaryGroup;
 
 function preload(){
 
@@ -59,6 +60,17 @@ function setup () {
     balloon.y = 100;
     balloon.visible = false;
 
+    topWall = new Sprite(width / 2, 0, width, 10, "static");
+    bottomWall = new Sprite(width / 2, height, width, 10, "static");
+    leftWall = new Sprite(0, height / 2, 10, height, "static");
+    rightWall = new Sprite(width, height / 2, 10, height, "static");
+
+    boundaryGroup = new Group();
+    boundaryGroup.add(topWall);
+    boundaryGroup.add(bottomWall);
+    boundaryGroup.add(leftWall);
+    boundaryGroup.add(rightWall);
+    boundaryGroup.visible = false;
 }
 
 function gotHands(results){
@@ -80,6 +92,7 @@ function draw () {
         gameStarted = true;
         console.log("Game Started");
     }
+
     
     if (gameStarted) {
         fingerTip.visible = true;

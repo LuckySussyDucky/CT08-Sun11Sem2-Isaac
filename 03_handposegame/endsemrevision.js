@@ -2,7 +2,8 @@ let handPose;
 let hands = [];
 let video;
 
-let 
+let gameStarted = false;
+letgam
 
 let fingerTip;
 let balloon;

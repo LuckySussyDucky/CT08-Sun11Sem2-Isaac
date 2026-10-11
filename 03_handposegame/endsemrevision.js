@@ -74,6 +74,10 @@ function draw () {
     image(video, 0, 0, width, height);
 
     if (mouse.pressed(space) && !gameStarted) {
+        gameStarted = true;
+    }
+
+    
     
 }
 

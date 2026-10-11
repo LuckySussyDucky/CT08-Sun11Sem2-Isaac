@@ -41,13 +41,13 @@ function setup () {
     handPose.detectStart(video, gotHands);
 
     fingerTip = new Sprite();
-    fingerTip.width = 20;
+    fingerTip.width = 100;
     fingerTip.height = 20;
     fingerTip.collider = "kinematic";
     fingerTip.color = "rgba(0, 255, 0, 0.05)";
 
     balloon = new Sprite();
-    balloon.diameter = 60;
+    balloon.diameter = ;
     balloon.collider = "none";
     balloon.color = "red";
     balloon.x = width / 2;

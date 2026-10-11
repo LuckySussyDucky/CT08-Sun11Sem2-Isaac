@@ -82,7 +82,8 @@ function draw () {
     }
     
     if (gameStarted) {
-        
+        fingerTip.visible = true;
+        balloon.visible = true;
     }
 
     if (gameStarted === false) {

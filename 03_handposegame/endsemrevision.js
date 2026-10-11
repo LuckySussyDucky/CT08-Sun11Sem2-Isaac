@@ -9,6 +9,8 @@ let fingerTip;
 let balloon;
 let rightWall, leftWall, bottomWall, topWall, boundaryGroup;
 
+let score = 0;
+
 function preload(){
 
     let options = {

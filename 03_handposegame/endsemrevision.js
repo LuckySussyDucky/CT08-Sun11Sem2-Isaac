@@ -89,6 +89,7 @@ function draw () {
 
     if ((mouse.presses("left") && !gameStarted) || (kb.presses("space") && !gameStarted)) {
         gameStarted = true;
+        gameOver = false;
         console.log("Game Started");
     }
 

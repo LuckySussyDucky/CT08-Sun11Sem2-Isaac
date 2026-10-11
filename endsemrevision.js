@@ -3,7 +3,7 @@ let hands = [];
 let video;
 
 let fingerTip;
-
+let balloon;
 
 function preload(){
 
@@ -39,6 +39,8 @@ function setup () {
     video.hide();
 
     handPose.detectStart(video, gotHands);
+
+    fingerTip = new Sprite()
 
 }
 

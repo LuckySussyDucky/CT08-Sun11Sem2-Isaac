@@ -59,7 +59,6 @@ function setup () {
     balloon.color = "red";
     balloon.x = width / 2;
     balloon.y = 100;
-    balloon.bounciness = 2;
     balloon.visible = false;
 
     topWall = new Sprite(width / 2, 0, width, 10, "static");

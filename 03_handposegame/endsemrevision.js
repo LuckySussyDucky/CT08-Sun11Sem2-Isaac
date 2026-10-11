@@ -82,6 +82,7 @@ function draw () {
     background("black")  
 
     let keypoint = hands.keypoints[8]; // Get the index finger tip keypoint
+    circle(keypoint.x, keypoint.y, 10); // Draw a circle at the index finger tip position
 
     image(video, 0, 0, width, height);
 

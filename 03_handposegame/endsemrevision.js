@@ -81,5 +81,12 @@ function draw () {
     if (gameStarted) {
         
     }
+
+    if (gameEnded) {
+        textSize(32);
+        fill("white");
+        textAlign(CENTER, CENTER);
+        text("Game Over", width / 2, height / 2);
+    }
 }
 

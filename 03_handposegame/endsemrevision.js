@@ -4,7 +4,7 @@ let video;
 
 let gameStarted = false;
 let gameEnded = false;
-let
+let gameOver = false;
 
 let fingerTip;
 let balloon;
@@ -83,8 +83,11 @@ function draw () {
         
     }
 
-    if (gameEnded) {
-       
+    if (gameOver) {
+        textSize(32);
+        fill("white");
+        textAlign(CENTER, CENTER);
+        text("Game Over", width / 2, height / 2);
     }
 }
 

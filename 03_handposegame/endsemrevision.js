@@ -41,6 +41,7 @@ function setup () {
     handPose.detectStart(video, gotHands);
 
     fingerTip = new Sprite();
+    fingerTip.diameter = 20;
     
 
 }

@@ -78,8 +78,8 @@ function draw () {
         console.log("Game Started");
     }
     
-    if (gameStarted && !gameEnded) {
-    
+    if (gameStarted) {
+        
     }
 }
 

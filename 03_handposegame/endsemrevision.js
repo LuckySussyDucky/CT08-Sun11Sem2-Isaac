@@ -117,10 +117,12 @@ function draw () {
     }
 
     if (gameOver) {
-        textSize(32);
-        fill("white");
+        textSize(36);
         textAlign(CENTER, CENTER);
-        text("Game Over", width / 2, height / 2);
+        fill("magenta");
+        text("Game Over", width / 2, height/ 2);
+        textSize(18);
+        text("Press SPACE to restart.", width / 2, height / 2 + 40);
     }
 }
 

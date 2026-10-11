@@ -104,7 +104,11 @@ function draw () {
         balloon.collider = "dynamic";
 
         textSize(12);
-        
+        textAlign(LEFT, TOP);
+        fill("white");
+        text("Use Index Finger to bounce the ball.", 10, 10);
+
+        t
     }
 
     if (gameStarted === false) {

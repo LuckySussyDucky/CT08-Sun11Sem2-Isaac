@@ -85,6 +85,7 @@ function draw () {
     image(video, 0, 0, width, height);
 
     if ((mouse.presses("left") && !gameStarted) || 
+    
     (kb.presses("space") && !gameStarted) || 
     (kb.presses("space") && gameOver)) {
         gameOver = false;

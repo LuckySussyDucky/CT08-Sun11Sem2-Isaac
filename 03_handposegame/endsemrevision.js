@@ -100,7 +100,10 @@ function draw () {
         balloon.collider = "none";
     }
 
-    if (balloon)
+    if (balloon.collides(fingerTip)) {
+        score++;
+        console.log("Score: " + score);
+    }
 
     if (gameStarted) {
         fingerTip.visible = true;

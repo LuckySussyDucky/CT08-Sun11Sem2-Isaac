@@ -51,8 +51,8 @@ let player2Person = null;
 let player1Score = 0;
 let player2Score = 0;
 let pointsForFirstMatch = 100;
-let player1Scored;
-let player2Scored;
+let player1Scored = false;
+let player2Scored = false;
 
 let leftPanelCenterX = sidePanelWidth / 2;
 let rightPanelCenterX = rightPanelX + sidePanelWidth / 2;

@@ -753,7 +753,7 @@ function checkPlayerScores() {
 }
 
 function startRound() {
-
+    currentPose = poseList[roundNumber]
 }
 
 function endRound() {

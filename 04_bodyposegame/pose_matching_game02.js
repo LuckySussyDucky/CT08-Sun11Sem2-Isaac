@@ -409,7 +409,7 @@ function drawSharedGameUI() {
     
     fill(255);
     textSize(32);
-    
+    text("Round" )
 }
 
 function drawTargetPose(poseImage, x, y, size) {

@@ -54,6 +54,8 @@ let pointsForFirstMatch = 100;
 let player1Scored = false;
 let player2Scored = false;
 
+let totalRounds = 5;
+
 let leftPanelCenterX = sidePanelWidth / 2;
 let rightPanelCenterX = rightPanelX + sidePanelWidth / 2;
 

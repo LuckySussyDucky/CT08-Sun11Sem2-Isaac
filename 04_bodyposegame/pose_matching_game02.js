@@ -726,6 +726,8 @@ function checkPlayerScores() {
     if (player1Person !== null && 
         player1Scored === false && 
         player2Scored === false) {
-
+            if (checkCurrentPose(player1Person) === true) {
+                
+            }
     }
 }

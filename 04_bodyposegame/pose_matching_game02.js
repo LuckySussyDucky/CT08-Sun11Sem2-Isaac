@@ -710,5 +710,6 @@ function checkCurrentPose(person) {
 // Display player score
 function drawPlayerPanel(player, panelCenterX, score, playerColour) {
     noStroke();
-    fill(playerColour)
+    fill(playerColour);
+    textSize(24);
 }

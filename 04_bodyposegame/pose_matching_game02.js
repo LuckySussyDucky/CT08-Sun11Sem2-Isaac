@@ -759,5 +759,5 @@ function startRound() {
 }
 
 function endRound() {
-    
+    roundNumber += 1;
 }

@@ -48,7 +48,9 @@ let player2Color;
 let player1Person = null;
 let player2Person = null;
 
-let player
+let player1Score = 0;
+let player2Score = 0;
+let pointsForFirstMatch = 100;
 
 let leftPanelCenterX = sidePanelWidth / 2;
 let rightPanelCenterX = rightPanelX + sidePanelWidth / 2;

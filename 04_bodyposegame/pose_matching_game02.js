@@ -414,19 +414,19 @@ function drawGameUI() {
 function keyPressed() {
     // Test other poses
     if (key === "1") {
-        currentPose = poseArray[0];
+        currentPose = poseList[0];
     }
     if (key === "2") {
-        currentPose = poseArray[1];
+        currentPose = poseList[1];
     }
     if (key === "3") {
-        currentPose = poseArray[2];
+        currentPose = poseList[2];
     }
     if (key === "4") {
-        currentPose = poseArray[3];
+        currentPose = poseList[3];
     }
     if (key === "5") {
-        currentPose = poseArray[4];
+        currentPose = poseList[4];
     }
 }
 

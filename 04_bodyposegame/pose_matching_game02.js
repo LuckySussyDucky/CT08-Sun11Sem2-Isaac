@@ -683,3 +683,28 @@ function checkHandsOnHead(person) {
         return false;
     }
 }
+
+// Function to check player pose
+function checkCurrentPose(person) {
+    // Check if there is a current pose
+    if (currentPose === null || currentPose === undefined) {
+        // Stop function
+        console.log("No Current Pose");
+        return;
+    }
+
+    // Check current pose id then call check function
+    if (currentPose.id === "bothHandsUp") {
+        return checkBothHandsUp(person);
+    } else if (currentPose.id === "leftHandUp") {
+        return checkLeftHandUp(person);
+    } else if (currentPose.id === "rightHandUp") {
+        return checkRightHandUp(person);
+    } else if (currentPose.id === "handsOnHead") {
+        return checkHandsOnHead(person);
+    } else if (currentPose.id === "tPose") {
+        return checkTPose(person);
+    } else {
+        return false;
+    }
+}

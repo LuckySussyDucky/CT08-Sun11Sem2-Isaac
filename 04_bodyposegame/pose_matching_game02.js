@@ -751,3 +751,11 @@ function checkPlayerScores() {
             }
     }
 }
+
+function startRound() {
+
+}
+
+function endRound() {
+
+}

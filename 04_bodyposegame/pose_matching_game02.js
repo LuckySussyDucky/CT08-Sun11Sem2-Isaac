@@ -48,6 +48,8 @@ let player2Color;
 let player1Person = null;
 let player2Person = null;
 
+let pla
+
 let leftPanelCenterX = sidePanelWidth / 2;
 let rightPanelCenterX = rightPanelX + sidePanelWidth / 2;
 

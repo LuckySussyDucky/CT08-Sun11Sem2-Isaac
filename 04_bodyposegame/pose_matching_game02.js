@@ -408,7 +408,7 @@ function drawSharedGameUI() {
     // text("Press 1 to 5 to test poses", width / 2, height - 30);
     
     fill(255);
-    textSize(32);
+    textSize(28);
     text("Round " + (roundNumber + 1) + " / " + totalRounds, width / 2, 30);
 }
 

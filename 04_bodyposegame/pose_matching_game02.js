@@ -128,7 +128,7 @@ function draw() {
     drawPlayerStatus();
 
     drawSharedGameUI();
-    drawPlayerPanel()
+    drawPlayerPanel("Player 1", leftPanel)
 }
 
 // ====================================================

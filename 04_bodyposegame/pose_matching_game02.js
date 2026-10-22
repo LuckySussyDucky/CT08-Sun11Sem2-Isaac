@@ -394,11 +394,11 @@ function drawSharedGameUI() {
     rect(cameraX + 190, 8 , 420, 90, 12);
 
     fill(255);
-    textSize(24);
+    textSize(22);
     text("Current Pose", width / 2, 57);
 
     fill(255, 280, 80);
-    textSize(24);
+    textSize(22);
     text(currentPose.name, width / 2, 82);
 
     drawTargetPose(currentPose.image, width / 2, height / 2 + 55, 238);

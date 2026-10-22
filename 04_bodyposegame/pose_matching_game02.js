@@ -316,6 +316,8 @@ function drawPlayerStatus() {
         text("Not Detected", leftPanelCenterX, 125);
     }
 
+    if (checkCurrent)
+
     if (player2Person !== null) {
         text("Detected", rightPanelCenterX, 125);
     } else {

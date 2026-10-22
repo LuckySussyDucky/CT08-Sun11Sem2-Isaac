@@ -727,7 +727,7 @@ function checkPlayerScores() {
         player1Scored === false && 
         player2Scored === false) {
             if (checkCurrentPose(player1Person) === true) {
-                
+                player1Score += pointsForFirstMatch
             }
     }
 }

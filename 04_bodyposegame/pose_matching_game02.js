@@ -712,4 +712,6 @@ function drawPlayerPanel(player, panelCenterX, score, playerColour) {
     noStroke();
     fill(playerColour);
     textSize(24);
+
+    text(okayerNa)
 }

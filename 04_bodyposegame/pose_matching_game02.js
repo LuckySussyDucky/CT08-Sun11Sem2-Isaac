@@ -128,6 +128,7 @@ function draw() {
     drawPlayerStatus();
 
     drawSharedGameUI();
+    drawPlayerPanel()
 }
 
 // ====================================================

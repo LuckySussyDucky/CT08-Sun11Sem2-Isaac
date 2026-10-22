@@ -402,26 +402,6 @@ function drawTargetPose(poseImage, x, y, size) {
     imageMode(CORNER);
 }
 
-// Function to draw game UI
-function drawGameUI() {
-    // Check if there is a current pose
-    if (currentPose === null || currentPose === undefined) {
-        // Stop function
-        console.log("No Current Pose");
-        return;
-    }
-
-    // Text settings
-    fill(200, 0, 200);
-    textSize(28);
-
-    // Draw current pose name
-    text(currentPose.name, width / 2, height * 0.1); // (str, x pos, y pos)
-
-    // Draw current pose image
-    drawTargetPose(currentPose.image, width / 2, height * 0.7, 230);
-}
-
 // This function is called when a key is pressed
 function keyPressed() {
     // Test other poses

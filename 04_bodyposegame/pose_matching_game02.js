@@ -395,7 +395,7 @@ function drawSharedGameUI() {
 
     fill(255);
     textSize(24);
-    text("Current Pose", width / 2, 30);
+    text("Current Pose", width / 2, 20);
 
     fill(255, 280, 80);
     textSize(28);

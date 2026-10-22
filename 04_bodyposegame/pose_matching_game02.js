@@ -732,4 +732,14 @@ function checkPlayerScores() {
                 return;
             }
     }
+
+    if (player2Person !== null && 
+        player1Scored === false && 
+        player2Scored === false) {
+            if (checkCurrentPose(player1Person) === true) {
+                player1Score += pointsForFirstMatch;
+                player1Scored = true;
+                return;
+            }
+    }
 }

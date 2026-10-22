@@ -708,10 +708,10 @@ function checkCurrentPose(person) {
 }
 
 // Display player score
-function drawPlayerPanel(player, panelCenterX, score, playerColour) {
+function drawPlayerPanel(playerName, panelCenterX, score, playerColour) {
     noStroke();
     fill(playerColour);
     textSize(24);
 
-    text(okayerNa)
+    text(okayerName)
 }

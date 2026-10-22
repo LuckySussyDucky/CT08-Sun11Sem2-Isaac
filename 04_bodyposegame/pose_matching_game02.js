@@ -706,3 +706,8 @@ function checkCurrentPose(person) {
         return false;
     }
 }
+
+// Display player score
+function drawPlayerPanel(player, panelCenterX, score, playerColour) {
+    
+}

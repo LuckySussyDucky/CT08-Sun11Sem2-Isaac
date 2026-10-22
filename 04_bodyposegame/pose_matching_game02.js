@@ -105,7 +105,8 @@ function setup() {
     player2Color = color(255, 120, 120);
 
     setupPoseList();
-    currentPose = poseList[0];
+    // currentPose = poseList[0];
+    startRound();
 }
 
 

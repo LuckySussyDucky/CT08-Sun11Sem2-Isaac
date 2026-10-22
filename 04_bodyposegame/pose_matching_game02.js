@@ -398,7 +398,7 @@ function drawSharedGameUI() {
     text("Current Pose", width / 2, 55);
 
     fill(255, 280, 80);
-    textSize(28);
+    textSize(24);
     text(currentPose.name, width / 2, 80);
 
     drawTargetPose(currentPose.image, width / 2, height / 2 + 55, 238);
@@ -760,4 +760,5 @@ function startRound() {
 
 function endRound() {
     roundNumber += 1;
+    if (roundNumber < totalRounds)
 }

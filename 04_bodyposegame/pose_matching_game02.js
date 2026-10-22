@@ -139,7 +139,7 @@ function draw() {
     checkPlayerScores();
 
     if (player1Scored === true || player2Scored === true) {
-        endRound(
+        endRound();
     }
 }
 

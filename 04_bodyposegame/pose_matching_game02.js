@@ -723,7 +723,9 @@ function drawPlayerPanel(playerName, panelCenterX, score, playerColour) {
 
 // Track scoring
 function checkPlayerScores() {
-    if (player1Person !== null && player1Scored === false && player2Scored === false) {
-        
+    if (player1Person !== null && 
+        player1Scored === false && 
+        player2Scored === false) {
+
     }
 }

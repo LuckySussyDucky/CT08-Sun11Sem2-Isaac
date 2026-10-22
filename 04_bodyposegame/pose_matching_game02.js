@@ -307,7 +307,7 @@ function drawPlayersSkeletons() {
 
 function drawPlayerStatus() {
     noStroke();
-    textSize(16);
+    textSize(24);
     fill(255);
 
     if (player1Person !== null) {

@@ -403,9 +403,10 @@ function drawSharedGameUI() {
 
     drawTargetPose(currentPose.image, width / 2, height / 2 + 55, 238);
 
-    fill(255);
-    textSize(18);
-    text("Press 1 to 5 to test poses", width / 2, height - 30);
+    // fill(255);
+    // textSize(18);
+    // text("Press 1 to 5 to test poses", width / 2, height - 30);
+    
 }
 
 function drawTargetPose(poseImage, x, y, size) {

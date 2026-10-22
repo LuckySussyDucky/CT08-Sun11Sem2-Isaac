@@ -713,5 +713,5 @@ function drawPlayerPanel(playerName, panelCenterX, score, playerColour) {
     fill(playerColour);
     textSize(24);
 
-    text(playerName, panelCenterX)
+    text(playerName, panelCenterX, 70);
 }

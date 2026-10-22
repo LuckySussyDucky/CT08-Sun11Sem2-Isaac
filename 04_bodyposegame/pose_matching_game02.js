@@ -720,3 +720,8 @@ function drawPlayerPanel(playerName, panelCenterX, score, playerColour) {
     text(playerName, panelCenterX, 70);
     text("Score: " + score, panelCenterX, 120);
 }
+
+// Track scoring
+function checkPlayerScores() {
+    
+}

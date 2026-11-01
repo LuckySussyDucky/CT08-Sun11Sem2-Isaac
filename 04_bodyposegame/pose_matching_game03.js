@@ -790,4 +790,8 @@ function drawSuccessEffect() {
     if (flashTime % 150){
         return;
     }
+
+    let effectX;
+
+    if (successEffectPlayer) {}
 }

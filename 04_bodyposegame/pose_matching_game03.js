@@ -119,7 +119,7 @@ function setup() {
     setupPoseList();
 
     makePoseOrder();
-    
+
     // currentPose = poseList[0];
     startRound();
 }
@@ -789,7 +789,7 @@ function checkPlayerScores() {
 }
 
 function startRound() {
-    currentPose = poseList[roundNumber];
+    // currentPose = poseList[roundNumber];
     player1Scored = false;
     player2Scored = false;
 

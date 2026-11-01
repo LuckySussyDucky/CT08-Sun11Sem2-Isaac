@@ -781,7 +781,7 @@ function startRound() {
 
 function endRound() {
     if (roundNumber < totalRounds) {
-        startRound;
+        startRound();
         roundNumber += 1;
     }
 }

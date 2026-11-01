@@ -796,6 +796,6 @@ function drawSuccessEffect() {
     if (successEffectPlayer) {
         effectX = camera +cameraWidth / 4;
     } else {
-        effectX = camera
+        effectX = camera + cameraWidth * 3 / 4;
     }
 }

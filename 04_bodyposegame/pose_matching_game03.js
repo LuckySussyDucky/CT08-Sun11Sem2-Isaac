@@ -800,6 +800,6 @@ function drawSuccessEffect() {
     }
 
     imageMode(CENTER)
-    image(scoreImg.effectX,height / 2)
+    image(scoreImg, effectX,height / 2, 512, 256)
     imageMode(CORNER)
 }

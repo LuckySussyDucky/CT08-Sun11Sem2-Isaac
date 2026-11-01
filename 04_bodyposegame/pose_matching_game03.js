@@ -59,9 +59,9 @@ let player2Scored = false;
 let totalRounds = 5;
 let roundNumber = 0;
 
-let successEffectPlayer;
+let successEffectPlayer = -1;
 let successEffectStartTime;
-let successEffectDuration;
+let successEffectDuration = 1500;
 
 let leftPanelCenterX = sidePanelWidth / 2;
 let rightPanelCenterX = rightPanelX + sidePanelWidth / 2;

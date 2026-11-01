@@ -829,7 +829,7 @@ function drawSuccessEffect() {
 }
 
 function runPlayState() {
-    drawGameUI(timeLeft);
+    drawGameUI();
 
     checkPlayerScores();
 

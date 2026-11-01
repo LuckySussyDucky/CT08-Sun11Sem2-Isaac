@@ -878,3 +878,7 @@ function makePoseOrder() {
         copyList.splice(randomIndex, 1);
     }
 }
+
+function startGame() {
+    
+}

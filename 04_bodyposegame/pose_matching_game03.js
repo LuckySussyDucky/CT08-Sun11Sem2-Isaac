@@ -427,7 +427,7 @@ function drawSharedGameUI() {
     drawSuccessEffect();
 
     if (player1Scored === true || player2Scored === true) {
-        let effect
+        let effectTime = millis()
     }
 }
 

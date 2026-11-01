@@ -471,7 +471,7 @@ function keyPressed() {
     // }
 
     if (key === " ") {
-        
+        startGame()
     }
 }
 

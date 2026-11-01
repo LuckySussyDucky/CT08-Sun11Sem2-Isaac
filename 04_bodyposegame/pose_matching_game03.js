@@ -778,4 +778,6 @@ function drawSuccessEffect() {
     if (successEffectPlayer < 0) {
         return;
     }
+
+    let effectTime = millis()
 }

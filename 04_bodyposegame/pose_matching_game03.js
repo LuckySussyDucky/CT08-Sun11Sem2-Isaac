@@ -884,5 +884,6 @@ function startGame() {
     player2Score = 0;
 
     roundNumber = 0;
+    successEffectPlayer = 0;
     
 }

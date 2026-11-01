@@ -798,4 +798,6 @@ function drawSuccessEffect() {
     } else {
         effectX = camera + cameraWidth * 3 / 4;
     }
+
+    imageMode(CENTER)
 }

@@ -774,7 +774,7 @@ function endRound() {
     }
 }
 
-function successEffectPlayer() {
+function drawSuccessEffect() {
     if (successEffectPlayer < 0) {
         return;
     }

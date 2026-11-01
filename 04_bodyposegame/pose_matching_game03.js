@@ -829,8 +829,6 @@ function drawSuccessEffect() {
 }
 
 function runPlayState() {
-    drawGameUI();
-
     checkPlayerScores();
 
     if (player1Scored === true || player2Scored === true) {
@@ -849,7 +847,7 @@ function runPlayState() {
     drawGameUI(timeLeft);
 
     if (timeLeft <= 0) {
-        endRound;
+        endRound();
         return;
     }
 }

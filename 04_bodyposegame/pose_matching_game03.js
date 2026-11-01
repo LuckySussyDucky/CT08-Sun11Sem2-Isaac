@@ -423,6 +423,8 @@ function drawSharedGameUI() {
     text("Round " + (roundNumber + 1) + " / " + totalRounds, width / 2, 30);
 
     drawSuccessEffect();
+
+    textSize(30);
 }
 
 function drawTargetPose(poseImage, x, y, size) {

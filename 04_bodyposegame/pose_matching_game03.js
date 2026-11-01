@@ -885,5 +885,7 @@ function startGame() {
 
     roundNumber = 0;
     successEffectPlayer = 0;
-    successEffectStartTime = 0
+    successEffectStartTime = 0;
+
+    makePoseOrder()
 }

@@ -794,9 +794,9 @@ function drawSuccessEffect() {
     let effectX;
 
     if (successEffectPlayer) {
-        effectX = camera +cameraWidth / 4;
+        effectX = cameraX + cameraWidth / 4;
     } else {
-        effectX = camera + cameraWidth * 3 / 4;
+        effectX = cameraX + cameraWidth * 3 / 4;
     }
 
     imageMode(CENTER)

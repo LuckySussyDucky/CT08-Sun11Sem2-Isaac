@@ -829,6 +829,8 @@ function drawSuccessEffect() {
 }
 
 function runPlayState() {
+    drawGameUI();
+    
     checkPlayerScores();
 
     if (player1Scored === true || player2Scored === true) {

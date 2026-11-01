@@ -63,8 +63,8 @@ let successEffectPlayer = -1;
 let successEffectStartTime;
 let successEffectDuration = 1500;
 
-let secondsPerRound;
-let roundStartTime
+let secondsPerRoun = 10;
+let roundStartTime = 0;
 
 let leftPanelCenterX = sidePanelWidth / 2;
 let rightPanelCenterX = rightPanelX + sidePanelWidth / 2;

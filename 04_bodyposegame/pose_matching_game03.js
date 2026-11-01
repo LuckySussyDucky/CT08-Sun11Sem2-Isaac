@@ -430,7 +430,7 @@ function drawSharedGameUI() {
         let effectTime = millis() - successEffectStartTime;
 
         if (effectTime > successEffectDuration) {
-            
+            endRound;
         }
     }
 }

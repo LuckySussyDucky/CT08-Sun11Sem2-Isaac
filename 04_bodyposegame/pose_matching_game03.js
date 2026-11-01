@@ -750,7 +750,7 @@ function checkPlayerScores() {
                 player1Scored = true;
 
                 successEffectPlayer = 1;
-                successEffectStartTime = millis()
+                successEffectStartTime = millis();
                 return;
             }
     }
@@ -761,6 +761,9 @@ function checkPlayerScores() {
             if (checkCurrentPose(player2Person) === true) {
                 player2Score += pointsForFirstMatch;
                 player2Scored = true;
+
+                successEffectPlayer = 1;
+                successEffectStartTime = millis();
                 return;
             }
     }

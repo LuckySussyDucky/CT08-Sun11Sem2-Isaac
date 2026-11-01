@@ -856,5 +856,9 @@ function runPlayState() {
 
 function makePoseOrder() {
     poseOrder = [];
-    let
+    let copyList = [];
+
+    for (let i = 0; i < poseList.length; i++) {
+        
+    }
 }

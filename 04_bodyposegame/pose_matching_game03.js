@@ -867,5 +867,7 @@ function makePoseOrder() {
         let randomIndex = floor(random(copyList.length));
 
         poseOrder.push(copyList[randomIndex]);
+
+        copyList.splice
     }
 }

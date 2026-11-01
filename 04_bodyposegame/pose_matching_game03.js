@@ -815,3 +815,7 @@ function drawSuccessEffect() {
     image(scoreImg, effectX,height / 2, 512, 256);
     imageMode(CORNER);
 }
+
+function runPlayState() {
+    
+}

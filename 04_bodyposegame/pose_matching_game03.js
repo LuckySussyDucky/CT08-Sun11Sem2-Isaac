@@ -118,10 +118,7 @@ function setup() {
 
     setupPoseList();
 
-    makePoseOrder();
-
     // currentPose = poseList[0];
-    startRound();
 }
 
 

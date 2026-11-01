@@ -144,10 +144,6 @@ function draw() {
     runPlayState();
     drawPlayerPanel("Player 1", leftPanelCenterX, player1Score, player1Color);
     drawPlayerPanel("Player 2", rightPanelCenterX, player2Score, player2Color);
-
-    if (player1Scored === true || player2Scored === true) {
-        endRound();
-    }
 }
 
 // ====================================================

@@ -868,6 +868,6 @@ function makePoseOrder() {
 
         poseOrder.push(copyList[randomIndex]);
 
-        copyList.splice
+        copyList.splice(randomIndex, 1);
     }
 }

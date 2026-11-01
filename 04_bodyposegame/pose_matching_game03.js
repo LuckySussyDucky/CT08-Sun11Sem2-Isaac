@@ -800,4 +800,5 @@ function drawSuccessEffect() {
     }
 
     imageMode(CENTER)
+    image
 }

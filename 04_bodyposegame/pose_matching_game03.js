@@ -799,7 +799,7 @@ function drawSuccessEffect() {
         effectX = cameraX + cameraWidth * 3 / 4;
     }
 
-    imageMode(CENTER)
-    image(scoreImg, effectX,height / 2, 512, 256)
-    imageMode(CORNER)
+    imageMode(CENTER);
+    image(scoreImg, effectX,height / 2, 512, 256);
+    imageMode(CORNER);
 }

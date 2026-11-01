@@ -787,6 +787,8 @@ function startRound() {
     player2Scored = false;
 
     successEffectPlayer = 0;
+
+    roundStartTime = millis();
 }
 
 function endRound() {

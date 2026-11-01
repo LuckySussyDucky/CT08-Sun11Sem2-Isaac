@@ -425,6 +425,10 @@ function drawSharedGameUI() {
     text("Round " + (roundNumber + 1) + " / " + totalRounds, width / 2, 30);
 
     drawSuccessEffect();
+
+    if (player1Scored === true || player2Scored === true) {
+        let effect
+    }
 }
 
 function drawTargetPose(poseImage, x, y, size) {

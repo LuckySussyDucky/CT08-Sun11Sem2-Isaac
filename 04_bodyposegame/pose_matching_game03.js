@@ -790,6 +790,7 @@ function checkPlayerScores() {
 
 function startRound() {
     // currentPose = poseList[roundNumber];
+    currentPose = poseOrder
     player1Scored = false;
     player2Scored = false;
 

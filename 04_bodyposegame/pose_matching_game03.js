@@ -793,5 +793,9 @@ function drawSuccessEffect() {
 
     let effectX;
 
-    if (successEffectPlayer) {}
+    if (successEffectPlayer) {
+        effectX = camera +cameraWidth / 4;
+    } else {
+        
+    }
 }

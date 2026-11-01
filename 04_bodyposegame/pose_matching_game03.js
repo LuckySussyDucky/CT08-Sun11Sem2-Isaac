@@ -436,6 +436,10 @@ function drawSharedGameUI(timeLeft) {
     text("Time: " + ceil(timeLeft), width / 2, 57);
 }
 
+function drawTimer(timeLeft) {
+    
+}
+
 function drawTargetPose(poseImage, x, y, size) {
     imageMode(CENTER);
 

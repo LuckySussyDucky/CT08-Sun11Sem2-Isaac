@@ -425,6 +425,8 @@ function drawSharedGameUI() {
     drawSuccessEffect();
 
     textSize(30);
+    fill("Orange");
+    
 }
 
 function drawTargetPose(poseImage, x, y, size) {

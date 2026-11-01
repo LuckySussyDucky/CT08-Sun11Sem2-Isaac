@@ -867,7 +867,7 @@ function makePoseOrder() {
     let copyList = [];
 
     for (let i = 0; i < poseList.length; i++) {
-        copyList.push(postList[i])
+        copyList.push(poseList[i])
     }
 
     for (let i = 0; i < totalRounds; i++) {

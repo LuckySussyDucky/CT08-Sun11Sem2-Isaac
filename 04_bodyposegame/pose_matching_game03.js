@@ -818,4 +818,14 @@ function drawSuccessEffect() {
 
 function runPlayState() {
     drawSharedGameUI()
+
+    if (player1Scored === true || player2Scored === true) {
+        let effectTime = millis() - successEffectStartTime;
+
+        if (effectTime > successEffectDuration) {
+            endRound;
+        }
+
+        return;
+    }
 }

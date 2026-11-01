@@ -470,7 +470,9 @@ function keyPressed() {
     //     currentPose = poseList[4];
     // }
 
-    
+    if (key === " ") {
+        
+    }
 }
 
 function checkBothHandsUp(person) {

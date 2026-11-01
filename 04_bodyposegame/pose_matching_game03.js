@@ -748,6 +748,8 @@ function checkPlayerScores() {
             if (checkCurrentPose(player1Person) === true) {
                 player1Score += pointsForFirstMatch;
                 player1Scored = true;
+
+                
                 return;
             }
     }

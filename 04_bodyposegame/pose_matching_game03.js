@@ -453,21 +453,24 @@ function drawTargetPose(poseImage, x, y, size) {
 // This function is called when a key is pressed
 function keyPressed() {
     // Test other poses
-    if (key === "1") {
-        currentPose = poseList[0];
-    }
-    if (key === "2") {
-        currentPose = poseList[1];
-    }
-    if (key === "3") {
-        currentPose = poseList[2];
-    }
-    if (key === "4") {
-        currentPose = poseList[3];
-    }
-    if (key === "5") {
-        currentPose = poseList[4];
-    }
+
+    // if (key === "1") {
+    //     currentPose = poseList[0];
+    // }
+    // if (key === "2") {
+    //     currentPose = poseList[1];
+    // }
+    // if (key === "3") {
+    //     currentPose = poseList[2];
+    // }
+    // if (key === "4") {
+    //     currentPose = poseList[3];
+    // }
+    // if (key === "5") {
+    //     currentPose = poseList[4];
+    // }
+
+    
 }
 
 function checkBothHandsUp(person) {

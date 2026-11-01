@@ -829,8 +829,6 @@ function drawSuccessEffect() {
 }
 
 function runPlayState() {
-    drawSharedGameUI();
-
     checkPlayerScores();
 
     if (player1Scored === true || player2Scored === true) {

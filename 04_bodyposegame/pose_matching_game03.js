@@ -61,7 +61,7 @@ let roundNumber = 0;
 
 let successEffectPlayer;
 let successEffectStartTime;
-ley
+let successEffectDuration;
 
 let leftPanelCenterX = sidePanelWidth / 2;
 let rightPanelCenterX = rightPanelX + sidePanelWidth / 2;

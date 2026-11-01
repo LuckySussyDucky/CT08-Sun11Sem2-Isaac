@@ -855,5 +855,6 @@ function runPlayState() {
 }
 
 function makePoseOrder() {
-    
+    poseOrder = [];
+    let
 }

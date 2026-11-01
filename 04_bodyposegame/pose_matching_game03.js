@@ -781,5 +781,9 @@ function drawSuccessEffect() {
 
     let effectTime = millis() - successEffectStartTime;
 
-    let 
+    if (effectTime > successEffectDuration) {
+        return;
+    }
+
+    let flashTime = effectTime % 300
 }

@@ -395,6 +395,7 @@ function setupPoseList() {
 }
 
 function drawGameUI() {
+    drawSharedGameUI();
     
 }
 

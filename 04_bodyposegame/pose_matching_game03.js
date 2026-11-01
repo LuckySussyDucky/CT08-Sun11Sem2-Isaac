@@ -72,6 +72,8 @@ function preload(){
     rightHandUpImg = loadImage("assets/poseBattle_rightHandUp.png");
     bothHandsOnHeadImg = loadImage("assets/poseBattle_handsOnHead.png");
     tPoseImg = loadImage("assets/poseBattle_tpose.png");
+    
+    scoreImg = loadImage("assets/poseBattle_points.png")
 }
 
 // ====================================================

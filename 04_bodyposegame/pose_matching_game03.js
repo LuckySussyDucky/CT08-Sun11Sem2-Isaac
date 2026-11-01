@@ -396,7 +396,7 @@ function setupPoseList() {
 
 function drawGameUI() {
     drawSharedGameUI(timeLeft);
-    drawSuccessEffect
+    drawSuccessEffect();
 
 }
 

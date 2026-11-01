@@ -824,8 +824,8 @@ function drawSuccessEffect() {
     imageMode(CORNER);
 }
 
-function runPlayState(timeLeft) {
-    drawSharedGameUI(timeLeft);
+function runPlayState() {
+    drawSharedGameUI();
 
     checkPlayerScores();
 

@@ -426,7 +426,7 @@ function drawSharedGameUI() {
 
     textSize(30);
     fill("Orange");
-    text("Time: ") + cancelIdleCallback(timeLeft)
+    text("Time: ") + cancelIdleCallback(timeLeft), width / 2, 94
 }
 
 function drawTargetPose(poseImage, x, y, size) {

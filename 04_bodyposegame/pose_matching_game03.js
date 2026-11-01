@@ -844,5 +844,6 @@ function runPlayState() {
     }
 
     let elapsedTime = millis() - roundStartTime;
-    let timeLeft = secondsPerRound
+    let timeLeft = secondsPerRound - elapsedTime / 1000;
+    
 }

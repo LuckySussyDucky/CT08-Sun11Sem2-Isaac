@@ -398,10 +398,11 @@ function setupPoseList() {
 function drawGameUI(timeLeft) {
     drawTimer(timeLeft);
     drawSuccessEffect();
+    drawSharedGameUI
 
 }
 
-function drawSharedGameUI(timeLeft) {
+function drawSharedGameUI() {
     if (currentPose === null || currentPose === undefined) {
         return;
     }

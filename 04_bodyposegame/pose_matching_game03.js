@@ -775,5 +775,7 @@ function endRound() {
 }
 
 function successEffectPlayer() {
-    if (successEffectPlayer < 0)
+    if (successEffectPlayer < 0) {
+        return;
+    }
 }

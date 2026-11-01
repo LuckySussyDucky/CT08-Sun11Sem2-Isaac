@@ -424,9 +424,9 @@ function drawSharedGameUI(timeLeft) {
 
     drawSuccessEffect();
 
-    textSize(30);
+    textSize(22);
     fill("Orange");
-    text("Time: " + ceil(timeLeft), width / 2, 94);
+    text("Time: " + ceil(timeLeft), width / 2, 57);
 }
 
 function drawTargetPose(poseImage, x, y, size) {

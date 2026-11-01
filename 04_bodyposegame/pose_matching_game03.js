@@ -33,6 +33,7 @@ let bodyPose; // Variable to hold the body pose model.
 
 let detectedPeople = []; // Array to hold detected people.
 let poseList = [];
+let poseOrder = [];
 
 let currentPose = null;
 

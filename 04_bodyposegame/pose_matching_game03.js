@@ -430,14 +430,12 @@ function drawSharedGameUI(timeLeft) {
     text("Round " + (roundNumber + 1) + " / " + totalRounds, width / 2, 30);
 
     drawSuccessEffect();
-
-    textSize(22);
-    fill("Orange");
-    text("Time: " + ceil(timeLeft), width / 2, 57);
 }
 
 function drawTimer(timeLeft) {
-    
+    textSize(22);
+    fill("Orange");
+    text("Time: " + ceil(timeLeft), width / 2, 57);
 }
 
 function drawTargetPose(poseImage, x, y, size) {

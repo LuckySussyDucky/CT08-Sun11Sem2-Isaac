@@ -817,5 +817,5 @@ function drawSuccessEffect() {
 }
 
 function runPlayState() {
-    
+    drawSharedGameUI()
 }

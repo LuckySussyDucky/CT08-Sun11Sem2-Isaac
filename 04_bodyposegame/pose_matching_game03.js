@@ -63,7 +63,7 @@ let successEffectPlayer = -1;
 let successEffectStartTime;
 let successEffectDuration = 1500;
 
-let secondsPerRoun = 10;
+let secondsPerRound = 10;
 let roundStartTime = 0;
 
 let leftPanelCenterX = sidePanelWidth / 2;
@@ -845,7 +845,9 @@ function runPlayState() {
 
     let elapsedTime = millis() - roundStartTime;
     let timeLeft = secondsPerRound - elapsedTime / 1000;
+    
     drawGameUI(timeLeft);
+
     if (timeLeft <= 0) {
         endRound;
         return;

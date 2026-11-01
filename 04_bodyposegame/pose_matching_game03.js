@@ -750,7 +750,7 @@ function checkPlayerScores() {
                 player1Scored = true;
 
                 successEffectPlayer = 1;
-                
+                successEffectStartTime = millis()
                 return;
             }
     }

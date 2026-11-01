@@ -785,5 +785,9 @@ function drawSuccessEffect() {
         return;
     }
 
-    let flashTime = effectTime % 300
+    let flashTime = effectTime % 300;
+
+    if (flashTime %150){
+        return;
+    }
 }

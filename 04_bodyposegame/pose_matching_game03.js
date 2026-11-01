@@ -773,3 +773,7 @@ function endRound() {
         roundNumber += 1;
     }
 }
+
+function successEffectPlayer () {
+    
+}

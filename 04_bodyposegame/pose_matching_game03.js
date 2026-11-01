@@ -42,6 +42,8 @@ let rightHandUpImg;
 let bothHandsOnHeadImg;
 let tPoseImg;
 
+let scoreImg;
+
 let player1Color;
 let player2Color;
 

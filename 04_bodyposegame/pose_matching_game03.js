@@ -432,6 +432,8 @@ function drawSharedGameUI() {
         if (effectTime > successEffectDuration) {
             endRound;
         }
+
+        return;
     }
 }
 

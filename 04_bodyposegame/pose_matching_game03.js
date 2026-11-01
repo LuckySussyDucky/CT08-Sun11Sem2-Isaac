@@ -847,6 +847,7 @@ function runPlayState() {
     let timeLeft = secondsPerRound - elapsedTime / 1000;
     drawGameUI(timeLeft);
     if (timeLeft <= 0) {
-        
+        endRound;
+        return;
     }
 }

@@ -829,7 +829,7 @@ function drawSuccessEffect() {
 }
 
 function runPlayState() {
-    drawGameUI();
+    drawSharedGameUI();
 
     checkPlayerScores();
 
@@ -840,16 +840,6 @@ function runPlayState() {
             endRound;
         }
 
-        return;
-    }
-
-    let elapsedTime = millis() - roundStartTime;
-    let timeLeft = secondsPerRound - elapsedTime / 1000;
-    
-    drawGameUI(timeLeft);
-
-    if (timeLeft <= 0) {
-        endRound;
         return;
     }
 }

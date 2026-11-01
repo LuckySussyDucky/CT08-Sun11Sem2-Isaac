@@ -779,5 +779,5 @@ function drawSuccessEffect() {
         return;
     }
 
-    let effectTime = millis()
+    let effectTime = millis() - successEffect
 }

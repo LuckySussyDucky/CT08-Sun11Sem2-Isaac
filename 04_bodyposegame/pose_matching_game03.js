@@ -833,7 +833,7 @@ function drawSuccessEffect() {
 }
 
 function runPlayState() {
-    drawGameUI();
+    drawSharedGameUI();
 
     checkPlayerScores();
 

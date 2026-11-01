@@ -749,6 +749,7 @@ function checkPlayerScores() {
                 player1Score += pointsForFirstMatch;
                 player1Scored = true;
 
+                successEffectPlayer = 1;
                 
                 return;
             }
